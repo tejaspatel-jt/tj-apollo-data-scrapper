@@ -59,15 +59,16 @@ TIMESTAMP = datetime.now().strftime("%d%b%Y_%H%M%S").lower()
 # ── 1. INPUT FILES ────────────────────────────────────────────
 # Master Excel file — this is your "Scrapped Master Data By Tejas - Apollo" sheet.
 # It is NEVER modified. The merged result always goes to a new output file.
-# MASTER_FILE = "Scrapped Master Data By Tejas - Apollo.xlsx"
-MASTER_FILE = "Scrapped Master Data By Tejas - Apollo_sample.xlsx"
+# MASTER_FILE = "Scrapped Master Data By Tejas - Apollo_sample.xlsx"
+MASTER_FILE = "Scrapped Master Data By Tejas - Apollo.xlsx"
 
 # The sheet tab name inside the master Excel file that holds the data.
-MASTER_FILE_SHEET_NAME = "CombinedData - Master"   # <- change if your tab has a different name
+# MASTER_FILE_SHEET_NAME = "CombinedData - Master"   # <- change if your tab has a different name
+MASTER_FILE_SHEET_NAME = "Sheet1"   # <- change if your tab has a different name
 
 # Source file — output of Script 3 (Campaign Formatter / ignite_ready_contacts_*.xlsx)
 # SOURCE_FILE = "ignite_ready_contacts_latest.xlsx"   # <- change to your actual file name
-SOURCE_FILE = "ignite_ready_contacts_sample_6may26_430pm.xlsx"   # <- change to your actual file name
+SOURCE_FILE = "ignite_ready_contacts_07may2026_131310.xlsx"   # <- change to your actual file name
 
 # The sheet tab name inside the source Excel file.
 SOURCE_FILE_SHEET_NAME = "Sheet1"   # <- change if needed (usually Sheet1 or the only tab)

@@ -42,9 +42,9 @@ TIMESTAMP = datetime.now().strftime("%d%b%Y_%H%M%S").lower()
 # 🔁 Choose your source
 USE_MASTER_DB = True   # True → use master DB | False → use enriched file
 
-# MASTER_DB_FILE = "master_lead_database.xlsx"
+MASTER_DB_FILE = "master_lead_database.xlsx"
 # MASTER_DB_FILE = "master_lead_database_sample.xlsx"    # Delete me later
-MASTER_DB_FILE = "master_lead_database_perfect_sample_6may2026.xlsx"    # Delete me later
+# MASTER_DB_FILE = "master_lead_database_perfect_sample_6may2026.xlsx"    # Delete me later
 
 ENRICHED_FILE = "apollo_enriched_latest.xlsx"  # change if needed
 ENRICHED_SHEET_NAME = "Enriched"
