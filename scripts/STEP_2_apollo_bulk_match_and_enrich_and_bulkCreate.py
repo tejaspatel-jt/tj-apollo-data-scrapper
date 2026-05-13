@@ -215,6 +215,41 @@ def load_input_file():
     print(f"  Loaded {len(df)} contacts from 'output/{BULK_ENRICH_INPUT_FILE}'")
     return df.reset_index(drop=True)
 
+# Update Master DB with only enriched CRM contacts from this input (called before enrichment)
+def seed_master_db_from_input(input_df):
+    """
+    Seed Master DB with CRM contacts from the Step 1 output.
+
+    Rules:
+      - Only rows with source_type = 'CRM_CONTACT'
+      - Creates Master DB on first run if it doesn't exist
+      - Uses update_master_db_enriched() so schema/flags stay consistent
+    """
+    df = input_df.copy()
+    df.columns = [c.strip().lower() for c in df.columns]
+
+    if "source_type" not in df.columns:
+        print("  ⚠  seed_master_db_from_input: 'source_type' column missing — skipping seeding.")
+        return
+
+    crm_df = df[df["source_type"].astype(str).str.upper() == "CRM_CONTACT"].copy()
+    if crm_df.empty:
+        print("  🧠  No CRM_CONTACT rows in input — nothing to seed into Master DB.")
+        return
+
+    # Ensure required columns exist
+    if "apollo_person_id" not in crm_df.columns:
+        print("  ⚠  seed_master_db_from_input: 'apollo_person_id' missing — skipping seeding.")
+        return
+
+    # Make sure flags are correct
+    crm_df["is_enriched"] = "true"
+    crm_df["is_crm_contact"] = "true"
+    crm_df["last_updated"] = TIMESTAMP
+
+    print(f"  🧠  Seeding Master DB with {len(crm_df)} CRM contacts from input...")
+    update_master_db_enriched(crm_df)
+
 # API CALL - BULK MATCH + ENRICH
 def bulk_match_batch(person_ids):
     """POST one batch (max 10 IDs) to /people/bulk_match."""
@@ -1070,6 +1105,9 @@ def main():
 
     # Don't Take the Ids from the input file directly Now
     # person_ids_all = input_df["apollo_person_id"].astype(str).str.strip().tolist()
+
+    # STEP 1.5: Seed Master DB with CRM contacts from this input
+    seed_master_db_from_input(input_df)
 
     # STEP 2 : Take Only the IDs that need enrichment based on our smart filter (cost control)
     person_ids_all = get_enrichment_candidates(input_df)

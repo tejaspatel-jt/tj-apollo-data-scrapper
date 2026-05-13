@@ -44,6 +44,11 @@ COMPANIES_INPUT_FILE = "companies_input.csv"   # CSV with columns: name, domain
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"apollo_people_search_{TIMESTAMP}.xlsx")
 # Timestamp ensures output is never overwritten on repeated runs
 
+# ── 9. MASTER DB ──────────────────────────────────────────────
+# True  → update master_lead_database.xlsx after every run (original behaviour)
+# False → skip master DB entirely — only the search output file is saved
+CREATE_MASTER_DB = False
+
 MASTER_DB = os.path.join(OUTPUT_DIR, "master_lead_database.xlsx")
 # Persistent master database — updated on every run, never loses old entries
 
@@ -564,7 +569,9 @@ def main():
     print(f"    └─ New prospects     : {new_count}  (new leads, not yet saved)")
 
     save_to_excel(df)
-    update_master_db(df)
+
+    if CREATE_MASTER_DB:
+        update_master_db(df)
 
     print()
     print("  ─── NEXT STEP ───────────────────────────────────────────")
