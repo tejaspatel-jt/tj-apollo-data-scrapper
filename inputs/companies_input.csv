@@ -1,74 +1,148 @@
 Company Name,Company Domain,Org Industry,Org Employees
-Glytec,glytec.com,hospital & health care,84
-Savvos Health,savvos.com,hospital & health care,59
-Jump Technologies,jumptech.com,hospital & health care,79
-Steer Health,steerhealth.io,hospital & health care,20
-PocketRN,pocketrn.com,hospital & health care,27
-Inflo Health,inflohealth.com,hospital & health care,16
-Vantari VR,vantarivr.com,hospital & health care,13
-Intellivisit,intellivisit.com,hospital & health care,68
-Mindset Medical,mindsetmedical.com,hospital & health care,13
-Ikonopedia,ikonopedia.com,hospital & health care,11
-Sure Med Compliance,suremedcompliance.com,hospital & health care,17
-Dyania Health,dyaniahealth.com,hospital & health care,47
-Maribel Health,maribelhealth.com,hospital & health care,24
-Medaica,medaica.com,hospital & health care,11
-ThriveAP,thriveap.com,hospital & health care,60
-Avaneer Health,avaneerhealth.com,hospital & health care,30
-Avo (AvoMD),avomd.com,hospital & health care,37
-GPS Dental,gps.dental,hospital & health care,85
-Health Data Innovations,hd-innovations.com,hospital & health care,23
-Patheous Health,patheoushealth.com,hospital & health care,54
-BioVigil,biovigil.com,hospital & health care,23
-HealthLeap AI,healthleap.ai,hospital & health care,14
-Watershed Health,watershedhealth.com,hospital & health care,40
-MAC Legacy,askmaclegacy.com,hospital & health care,61
-CARPL,carpl.ai,hospital & health care,79
-Force Therapeutics,forcetherapeutics.com,hospital & health care,36
-Casana,casanacare.com,hospital & health care,63
-AppliedVR,appliedvr.io,hospital & health care,61
-TouchCare,touchcare.com,hospital & health care,46
-CalmWave,calmwave.ai,hospital & health care,28
-N1 Health,n1health.com,hospital & health care,46
-Care Continuity,carecontinuity.com,hospital & health care,92
-ReadySet Surgical,readysetsurgical.com,hospital & health care,43
-Cipher Billing,cipherbilling.com,hospital & health care,43
-Clearstep,clearstep.health,hospital & health care,31
-Segmed,segmed.ai,hospital & health care,37
-Rhyme,getrhyme.com,hospital & health care,57
-Enlitic,enlitic.com,hospital & health care,42
-MCN Solutions,mcnsolutions.com,hospital & health care,57
-Credo,credohealth.com,hospital & health care,39
-Koda Health,kodahealthcare.com,hospital & health care,32
-Superb Shifts,superbshifts.com,hospital & health care,33
-Optain,optainhealth.com,hospital & health care,26
-Etiometry,etiometry.com,hospital & health care,59
-Dendi,dendisoftware.com,hospital & health care,20
-Alcidion,alcidion.com,hospital & health care,150
-Trilogy Care,trilogycare.com.au,hospital & health care,200
-nyra health,nyra.health,hospital & health care,38
-Telemedi,telemedi.biz,hospital & health care,79
-AntWorks,ant.works,information technology & services,200
-DispatchTrack,dispatchtrack.com,information technology & services,220
-Tyfone,tyfone.com,information technology & services,200
-Taqtics,taqtics.co,information technology & services,67
-Swipe,getswipe.in,information technology & services,81
-Bolt.Earth,bolt.earth,information technology & services,230
-SalesboxAI,salesbox.ai,information technology & services,130
-Tandems,tandems.ai,information technology & services,120
-Genuin,begenuin.com,information technology & services,60
-Entropik,entropik.io,information technology & services,92
-Darwix AI,darwix.ai,information technology & services,87
-Emorphis,emorphis.com,information technology & services,150
-Theatro,theatro.com,information technology & services,160
-SiMa.ai,sima.ai,information technology & services,240
-C-Zentrix,c-zentrix.com,information technology & services,160
-NowPurchase,nowpurchase.com,information technology & services,130
-Giift,giift.com,information technology & services,140
-Searchspring (Athos Commerce),athoscommerce.com,information technology & services,110
-Asper.ai,asper.ai,information technology & services,120
-Staqu,staqu.com,information technology & services,140
-SecurEnds,securends.com,information technology & services,67
-TMRW House of Brands,tmrw.in,information technology & services,270
-startelelogic,startelelogic.com,information technology & services,110
-Level AI,thelevel.ai,information technology & services,210
+Nextuple,nextuple.com,information technology & services,220
+Tor.ai,tor.ai,information technology & services,170
+Sedai,sedai.io,information technology & services,110
+Drucare,dru.care,information technology & services,86
+Avaamo,avaamo.ai,information technology & services,140
+VuNet Systems,vunetsystems.com,information technology & services,250
+AIRLINQ,airlinq.com,information technology & services,200
+Shipsy,shipsy.io,information technology & services,290
+Omniful,omniful.ai,information technology & services,140
+EASYECOM,easyecom.io,information technology & services,110
+Tyroo,tyroo.com,information technology & services,160
+Netcore Unbxd,netcoreunbxd.com,information technology & services,210
+sensen.ai,sensen.ai,information technology & services,150
+Avataar,avataar.ai,information technology & services,150
+SingleInterface,singleinterface.com,information technology & services,240
+Jeeva AI,jeeva.ai,information technology & services,160
+Awiros,awiros.com,information technology & services,110
+SpacePointe,spacepointe.com,information technology & services,55
+Entrupy,entrupy.com,information technology & services,130
+Think360.ai,think360.ai,information technology & services,130
+Cisco Spaces,cisco.com,information technology & services,180
+Eccentric,weareeccentric.com,information technology & services,150
+Xindus,xindus.net,information technology & services,78
+ZopSmart,zopsmart.com,information technology & services,280
+PromptCloud,promptcloud.com,information technology & services,110
+UrbanPiper,urbanpiper.com,information technology & services,260
+C1X,c1exchange.com,information technology & services,120
+LiftLab,liftlab.com,information technology & services,110
+Bureau,bureau.id,information technology & services,270
+Acceldata,acceldata.io,information technology & services,290
+Valamis,valamis.com,information technology & services,130
+First Insight,firstinsight.com,information technology & services,83
+HappyFox,happyfox.com,information technology & services,140
+Pepul,pepul.com,information technology & services,170
+Rezo.ai,rezo.ai,information technology & services,180
+Session AI,sessionai.com,information technology & services,98
+Data Sutram,datasutram.com,information technology & services,98
+Riskcovry,riskcovry.com,information technology & services,140
+MangoApps,mangoapps.com,information technology & services,150
+Shipway by Unicommerce,shipway.com,information technology & services,170
+Convosight,convotrack.ai,information technology & services,140
+Revionics (an Aptos Company),revionics.com,information technology & services,140
+U2opia,u2opia.com,information technology & services,150
+Zeotap,zeotap.com,information technology & services,190
+1DigitalStack,1digitalstack.ai,information technology & services,120
+Metadome.ai,metadome.ai,information technology & services,96
+Tilli,tillisoftware.com,information technology & services,63
+RightData,getrightdata.com,information technology & services,82
+Convertcart,convertcart.com,information technology & services,180
+Delivery Solutions,deliverysolutions.co,information technology & services,200
+TripStack,tripstack.com,information technology & services,180
+Maino.ai,maino.ai,information technology & services,92
+Wagepoint,wagepoint.com,information technology & services,140
+Xeno,getxeno.com,information technology & services,140
+VARStreet,varstreetinc.com,information technology & services,82
+Cumulocity,cumulocity.com,information technology & services,200
+Freightify,freightify.com,information technology & services,250
+Expedite Commerce,expeditecommerce.com,information technology & services,60
+HEAL Software,healsoftware.ai,information technology & services,68
+Hireology,hireology.com,information technology & services,180
+Talview,talview.com,information technology & services,220
+Assert AI,assertai.com,information technology & services,76
+Profit.co,profit.co,information technology & services,200
+graas,graas.ai,information technology & services,290
+PhaseZero.ai,phasezero.ai,information technology & services,52
+ParallelDots,paralleldots.com,information technology & services,220
+Mad Street Den (Vue.ai),madstreetden.com,information technology & services,170
+Phi Commerce,phicommerce.com,information technology & services,240
+AirFi,airfi.aero,information technology & services,68
+Kirusa,kirusa.com,information technology & services,95
+Flam,flamapp.ai,information technology & services,120
+Mystifly,mystifly.com,information technology & services,260
+FirstHive,firsthive.com,information technology & services,110
+Benchmark Email,benchmarkemail.com,information technology & services,120
+Editorialist,editorialist.com,information technology & services,230
+Frinks AI,frinks.ai,information technology & services,55
+Adaptiva,adaptiva.com,information technology & services,98
+Nomis Solutions,nomissolutions.com,information technology & services,78
+Zvolv,zvolv.com,information technology & services,75
+TRAY,tray.com,information technology & services,75
+Daalchini,daalchini.co.in,information technology & services,110
+Procol,procol.io,information technology & services,200
+Crayon Data,crayondata.ai,information technology & services,220
+CITYFURNISH,cityfurnish.com,information technology & services,200
+Frappe,frappe.io,information technology & services,140
+Neokred,neokred.tech,information technology & services,120
+CedCommerce,cedcommerce.com,information technology & services,81
+Rappit,rappit.io,information technology & services,250
+Sogolytics,sogolytics.com,information technology & services,110
+jrni,jrni.com,information technology & services,84
+Coats Digital,coatsdigital.com,information technology & services,150
+DataWeave,dataweave.com,information technology & services,250
+energytec.ai,energytec.ai,information technology & services,120
+imagine.io,imagine.io,information technology & services,110
+Upsun (Platform.sh),upsun.com,information technology & services,300
+Enterprise Bot,enterprisebot.ai,information technology & services,100
+Nexus Cognitive,nexuscognitive.com,information technology & services,79
+Engati,engati.ai,information technology & services,110
+Lemnisk,lemnisk.co,information technology & services,71
+Saras Analytics,sarasanalytics.com,information technology & services,190
+TrusTrace,trustrace.com,information technology & services,160
+INVIDI Technologies,invidi.com,information technology & services,260
+Lookinsure,lookinsure.com,information technology & services,79
+Exalogic Consulting,exalogic.co,information technology & services,270
+Mondia,mondia.com,information technology & services,270
+Axidian,axidian.com,information technology & services,50
+CEQUENS,cequens.com,information technology & services,180
+Fragma Data,fragmadata.com,information technology & services,210
+Pepagora,pepagora.com,information technology & services,110
+Swapp,joinswapp.com,information technology & services,68
+Eat App,eatapp.co,information technology & services,55
+TPConnects,tpconnects.com,information technology & services,200
+Voxtron,voxtronme.com,information technology & services,100
+Banuba,banuba.com,information technology & services,120
+Nukta,nukta.com,information technology & services,94
+DubiCars,dubicars.com,information technology & services,95
+DTEK.ai,dtek.ai,information technology & services,66
+Toothpick,toothpick.com,information technology & services,120
+Databorn,databorn.ai,information technology & services,170
+BBI,bbi.ai,information technology & services,240
+Tomoru,tomoru.app,information technology & services,81
+nybl,nybl.ai,information technology & services,78
+IPRoyal,iproyal.com,information technology & services,140
+invygo,invygo.com,information technology & services,120
+TECHSOPHY,techsophy.com,information technology & services,200
+iPOS,ipossoft.com,information technology & services,52
+Amani,amani.ai,information technology & services,65
+Datacultr,datacultr.com,information technology & services,120
+WovV,wovvtech.com,information technology & services,200
+mazeed,mazeed.com,information technology & services,150
+OneTwoTrip,onetwotrip.com,information technology & services,220
+Content Arcade,contentarcade.com,information technology & services,240
+Realiste AI,realiste.ai,information technology & services,72
+Yango Tech,yango-tech.com,information technology & services,77
+desertcart,desertcart.com,information technology & services,110
+LikeCard,likecard.com,information technology & services,150
+Urbi,urbi.ae,information technology & services,120
+Arpatech,arpatech.com,information technology & services,210
+Elluminati,elluminatiinc.com,information technology & services,74
+TMBill,tmbill.com,information technology & services,77
+Ogram,ogram.co,information technology & services,120
+Synapse Analytics,synapse-analytics.io,information technology & services,62
+HRlink,hrlink.space,information technology & services,53
+Zofeur,zofeur.com,information technology & services,150
+Swvl,swvl.com,information technology & services,290
+MAKAN,makanhome.ae,information technology & services,120
+COFE App,cofeapp.com,information technology & services,86
