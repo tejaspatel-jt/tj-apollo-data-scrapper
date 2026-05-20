@@ -19,8 +19,10 @@ import requests
 import pandas as pd
 import time
 import os
+import sys
 from datetime import datetime
 import html   # for unescaping HTML entities in strings
+import re       # for domain validation using regex
 
 # ─── resolve paths relative to this script's location ───────────────────────
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -35,6 +37,8 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # API_KEY = "l4AkVpSXwV9fICkebUMAXw"        # Normal API key
 API_KEY = "vWTBtYd1P9IpMLV-wghAzw"        # Your Apollo master API key
+
+BASE_URL = "https://api.apollo.io/api/v1"
 
 TIMESTAMP = datetime.now().strftime("%d%b%Y_%H%M%S").lower()   # e.g. 27apr2026_124055
 
@@ -120,7 +124,64 @@ COMPANIES = [
 # ║                     HELPER FUNCTIONS                        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-BASE_URL = "https://api.apollo.io/api/v1"
+# v11 : validate company domains before making any API calls; stop script if issues found
+def validate_companies(companies):
+    """
+    Validates all company entries before any API calls are made.
+    Checks for:
+      - Missing or empty domain
+      - Domain with extra words/spaces (e.g. 'teknikforce.com youtube')
+      - Domain with http/https still attached (e.g. 'https://gamechange.com')
+      - Domain with trailing slashes or paths (e.g. 'gamechange.com/about')
+    Stops the script if ANY issues are found.
+    """
+    DOMAIN_REGEX = re.compile(
+        r'^(?!https?://)([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}$'
+    )
+
+    errors = []
+
+    for idx, company in enumerate(companies, 1):
+        name   = company.get("name", "").strip()
+        domain = company.get("domain", "").strip()
+
+        # 1. Missing domain
+        if not domain:
+            errors.append(f"  [{idx:>3}] '{name}' → domain is EMPTY")
+            continue
+
+        # 2. Extra words / spaces after domain
+        if " " in domain:
+            errors.append(f"  [{idx:>3}] '{name}' → domain has extra words: '{domain}'")
+            continue
+
+        # 3. http/https still present
+        if domain.startswith("http://") or domain.startswith("https://"):
+            errors.append(f"  [{idx:>3}] '{name}' → domain has URL prefix: '{domain}'")
+            continue
+
+        # 4. Path or query string in domain
+        if "/" in domain or "?" in domain:
+            errors.append(f"  [{idx:>3}] '{name}' → domain has path/query: '{domain}'")
+            continue
+
+        # 5. Regex: not a valid bare domain
+        if not DOMAIN_REGEX.match(domain):
+            errors.append(f"  [{idx:>3}] '{name}' → domain looks invalid: '{domain}'")
+
+    if errors:
+        print("\n" + "═" * 62)
+        print("  ❌ ❌  VALIDATION FAILED ❌ ❌ — Fix INPUT FILE issues before running the script")
+        print("═" * 62)
+        for err in errors:
+            print(err)
+        print("═" * 62)
+        print(f"\n  ✗  {len(errors)} issue(s) found in companies_input.csv")
+        print("  🛑 🛑 Script stopped. No API calls were made.\n")
+        sys.exit(1)   # ← hard stop, exit code 1
+    else:
+        print(f"  ✔  All {len(companies)} company domains validated OK\n")
+
 
 # v7 changes : input columns: company name, website, org industry, org employees
 def load_companies():
@@ -504,6 +565,10 @@ def main():
     print("═" * 62)
 
     companies = load_companies()
+    
+    # ✅ Validate all domains BEFORE touching the API
+    validate_companies(companies)
+
     print(f"  Titles filter  : {len(PERSON_TITLES)} roles")
     print(f"  Output file    : {OUTPUT_FILE}")
     print(f"  Master DB      : {MASTER_DB}")
@@ -578,7 +643,7 @@ def main():
     print(f"  1. Open '{OUTPUT_FILE}'")
     print("  2. Review the Contacts sheet — filter rows you want")
     print("  3. Save filtered rows as a new file")
-    print("  4. Run Script 2 (apollo_bulk_create.py) to enrich + save")
+    print("  4. Run Script 2 (STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py) to enrich + save")
     print("     Note: CRM_CONTACT rows are already saved — tracker will")
     print("     skip re-enriching them if already processed before.")
     print("─" * 62 + "\n")
