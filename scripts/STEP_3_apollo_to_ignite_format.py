@@ -61,7 +61,8 @@ OUTPUT_FILE = os.path.join(
 
 COUNTRY_REGION_MAP = {
     "Africa": [
-            "Kenya", "Mauritius", "Nigeria", "South Africa", "Sudan"
+            "Kenya", "Mauritius", "Nigeria", "South Africa", "Sudan",
+            "Côte d'Ivoire", "Madagascar", "Rwanda"
         ],
         "Asia-Pacific": [
             "Australia", "Bangladesh", "China", "Hong Kong", 
@@ -78,7 +79,7 @@ COUNTRY_REGION_MAP = {
             "Monaco", "Netherlands", "Norway", "Poland", "Portugal", "Romania",
             "Russia", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden",
             "Switzerland", "Ukraine", "United Kingdom","Armenia","Jersey","Kosovo",
-            "Montenegro"
+            "Montenegro", "North Macedonia"
         ],
         "Latin America": [
             "Brazil", "British Virgin Islands","Ecuador","Argentina","Colombia","Uruguay"
@@ -86,14 +87,16 @@ COUNTRY_REGION_MAP = {
         "Middle East": [
             "Bahrain", "Egypt", "Iraq", "Israel", "Jordan", "Kuwait",
             "Oman", "Qatar", "Saudi Arabia", "Tuerkiye", "Turkey",
-            "United Arab Emirates"
+            "United Arab Emirates", "Iran"
         ],
         "North America": [
             "Canada", "United States", "Mexico","Puerto Rico"
         ],
         "Southeast Asia": [
             "Indonesia", "Malaysia", "Myanmar (Burma)", "Philippines",
-            "Singapore", "Thailand", "Vietnam"
+            "Singapore", "Thailand", "Vietnam",
+            "Republic of Indonesia"
+
         ]
 }
 
