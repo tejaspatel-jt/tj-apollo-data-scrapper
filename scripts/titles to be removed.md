@@ -75,7 +75,6 @@
 | Chief Marketing & Communication Officer / Executive Group Management |
 | Software Engineer - Platform/Infrastructure |
 | Director, Business Value Engineering \| Phocas Software |
-| Platform Engineering Manager \| Driving Scalable AI Infrastructure & Agentic Adoption |
 | QA Manager |
 | Senior Director of Customer & Product Innovation |
 | Director \| D&C Head |
@@ -181,7 +180,6 @@
 | Vice President, Strategy & Business Value Engineering |
 | Enterprise SaaS AE & Partnerships Leader \| PRM · Affiliate Marketing · Channel BD \| 20+ Years Closing Complex Deals \| 4x #1 IC · 3x CEO Club |
 | Sr Director, Product Ownership |
-| Senior Product Engineering Manager — GenAI & ERP Platform |
 | Head of Product & Technology Programs and Operations |
 | Director of Design Engineering |
 | VP of Product \|\| Mobile, Infotainment, Global Platform \| Leadership |
@@ -203,14 +201,11 @@
 | SVP Product Engineering |
 | Chief Engineering and AI Officer, AI GTM Platform |
 | Sr. Director - Product Delivery and Implementation |
-| Senior Engineering Manager, Platform Services |
-| Senior Engineering Manager, Supplier Platform |
 | Manager of Platform Database Engineering |
 | Director, Client Success Engineering & BAU Opperations |
 | Director, Infrastructure & DevEX \| Platform Engineering & FinOps |
 | VP Solutions & Delivery Engineering |
 | Senior Director, Content & Product Marketing |
-| Engineering Manager, Data Platform |
 | Director, Product Marketing & Brand |
 | Director, Engineering Operations |
 | Head of Cloud Native Engineering |
@@ -251,7 +246,6 @@
 | Platform Engineer |
 | Head of Customer Success Engineering |
 | Head of Compliance Engineering |
-| Product Engineering Manager |
 | Product Marketing Director |
 | Director Product Documentation |
 | Head of QA, Release Manager |
@@ -290,7 +284,6 @@
 | Platform Engineer |
 | Founding Member \| Head of Technology |
 | Founding Marketer |
-| Software Engineering Manager - Internal Developer Platform, Infrastructure, AI |
 | Directeur Général / CEO |
 | Assisant to the President/CEO |
 | Global Head of TI Product Group Ammonia & Derivatives |
