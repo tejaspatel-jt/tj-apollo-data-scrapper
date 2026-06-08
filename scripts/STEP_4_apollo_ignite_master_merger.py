@@ -6,11 +6,11 @@
 
   PURPOSE:
     Merge a new source Excel file (output of Script 3) INTO
-    the "Scrapped Master Data By Tejas - Apollo" master Excel
+    the "Scrapped Master Data By Tejas - Apollo-Utility" master Excel
     sheet, deduplicating by First Name + Last Name + Email.
 
   INPUT:
-    - Master Excel File  : "Scrapped Master Data By Tejas - Apollo.xlsx"
+    - Master Excel File  : "Scrapped Master Data By Tejas - Apollo-Utility.xlsx"
     - Source Excel File  : ignite_ready_contacts_DDMMMYYYY_HHMMSS.xlsx
                            (output of Script 3 / Campaign Formatter)
 
@@ -60,7 +60,7 @@ TIMESTAMP = datetime.now().strftime("%d%b%Y_%H%M%S").lower()
 # Master Excel file — this is your "Scrapped Master Data By Tejas - Apollo" sheet.
 # It is NEVER modified. The merged result always goes to a new output file.
 # MASTER_FILE = "Scrapped Master Data By Tejas - Apollo_sample.xlsx"
-MASTER_FILE = "Scrapped Master Data By Tejas - Apollo.xlsx"
+MASTER_FILE = "Scrapped Master Data By Tejas - Apollo-Utility.xlsx"
 
 # The sheet tab name inside the master Excel file that holds the data.
 # MASTER_FILE_SHEET_NAME = "CombinedData - Master"   # <- change if your tab has a different name
@@ -68,7 +68,7 @@ MASTER_FILE_SHEET_NAME = "Sheet1"   # <- change if your tab has a different name
 
 # Source file — output of Script 3 (Campaign Formatter / ignite_ready_contacts_*.xlsx)
 # SOURCE_FILE = "ignite_ready_contacts_latest.xlsx"   # <- change to your actual file name
-SOURCE_FILE = "ignite_ready_contacts_20may2026_144835.xlsx"   # <- change to your actual file name
+SOURCE_FILE = "ignite_ready_contacts_08jun2026_130800.xlsx"   # <- change to your actual file name
 
 # The sheet tab name inside the source Excel file.
 SOURCE_FILE_SHEET_NAME = "Sheet1"   # <- change if needed (usually Sheet1 or the only tab)

@@ -68,7 +68,8 @@ COUNTRY_REGION_MAP = {
             "Australia", "Bangladesh", "China", "Hong Kong", 
             "India",
             "Japan", "Kazakhstan", "Maldives", "New Zealand", "Pakistan",
-            "South Korea", "Sri Lanka", "Papua New Guinea"
+            "South Korea", "Sri Lanka", "Papua New Guinea",
+            "Cocos (Keeling) Islands", "Taiwan"
         ],
         "Europe": [
             "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
@@ -82,12 +83,13 @@ COUNTRY_REGION_MAP = {
             "Montenegro", "North Macedonia"
         ],
         "Latin America": [
-            "Brazil", "British Virgin Islands","Ecuador","Argentina","Colombia","Uruguay"
+            "Brazil", "British Virgin Islands","Ecuador","Argentina","Colombia","Uruguay",
+            "Chile", "Saint Lucia"
         ],
         "Middle East": [
             "Bahrain", "Egypt", "Iraq", "Israel", "Jordan", "Kuwait",
             "Oman", "Qatar", "Saudi Arabia", "Tuerkiye", "Turkey",
-            "United Arab Emirates", "Iran"
+            "United Arab Emirates", "Iran", "Lebanon"
         ],
         "North America": [
             "Canada", "United States", "Mexico","Puerto Rico"
