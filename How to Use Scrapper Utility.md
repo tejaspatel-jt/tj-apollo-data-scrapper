@@ -51,6 +51,9 @@
 
 **Run Script_3:**
 - `STEP_3_apollo_to_ignite_format.py`
+    - If Unmapped Countries Found...
+        1. Go to [tejasatjignect-Gemini-Thread](https://gemini.google.com/app/b0d2c34119340152) and Find Mapping
+        2. Update `COUNTRY_REGION_MAP` under step_3's script & Re-Run🔁.
 
 **Output File:**
 - `ignite_ready_contacts_{TIMESTAMP}.xlsx`
