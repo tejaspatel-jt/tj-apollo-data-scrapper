@@ -467,3 +467,44 @@
 | Leading Techincal Officer |
 | Executive Assistant to Chief Executive Officer |
 | Leading Tech Officer |
+| Advanced Research and Design Architect, Office of the CTO |
+| Big Data Platform Engineer |
+| Chief of Staff, CEO |
+| Client Platform Engineer |
+| Director, Emerging Products GTM & Sales \| Office of the CEO |
+| Distinguished Engineer, Security Products & Strategy, Office of the CTO |
+| Emerging Products GTM & Sales Lead, Office of the CEO |
+| Engineering Manager - Office of the CTO |
+| Executive Assistant to CTO & VP of Product |
+| Executive Assistant to Chief Executive Officer - Josh Rogers |
+| Executive Business Partner to CEO |
+| Experienced Platform Engineer |
+| Mac Platform Engineer \| IS Enterprise Engineering |
+| Office of the CEO |
+| Office of the CEO (OCEO Specialist) |
+| Office of the CEO - Customer Relationship Advocate |
+| Office of the CEO - Social Support Team |
+| Office of the CEO -- Expert Services |
+| Office of the CEO Coach |
+| Office of the CEO, Supervisor |
+| Office of the CTO |
+| Office of the CTO, Principal Community Strategy Manager |
+| Platform Engineer - Observability and Reliability |
+| Platform Engineering |
+| Principal Data Scientist (Office of the CTO) |
+| Product Engineering Architecture and Delivery Excellence |
+| Senior Director of Analytics, Customer Insights & Research - Office of the CTO |
+| Senior Software Engineer (Platform Engineering) |
+| Senior Software Engineer- Cloud Platform Engineering |
+| Social Care Manager, Office of the CEO |
+| Social Media Specialist III - Office of the CEO |
+| Social Media Specialist III Office of the CEO |
+| Software Engineer - Office of the CTO |
+| Software Engineer / Office of the CTO Team |
+| Software Engineer I, Office of the CTO |
+| Software Engineer II - Office of the CTO |
+| Software Engineer, Office of the CTO |
+| Staff Engineer - Office of the CTO |
+| Staff Software Engineer (Platform Engineering) |
+| Supervisor Platform Engineering Team, Emeia |
+| Technical Project Manager, Office of the CTO |

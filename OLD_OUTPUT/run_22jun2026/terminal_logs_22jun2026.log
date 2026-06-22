@@ -1,0 +1,1055 @@
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> & C:\Users\tejas\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_1_apollo_people_search.py"
+
+══════════════════════════════════════════════════════════════
+  Apollo People Search Scraper — Step 1 of 2
+  Searches: New Prospects + Already Saved CRM Contacts
+══════════════════════════════════════════════════════════════
+  ✔  All 120 company domains validated OK
+
+  Titles filter  : 32 roles
+  Output file    : c:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\scripts\..\output\apollo_people_search_22jun2026_112229.xlsx
+  Master DB      : c:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\scripts\..\output\master_lead_database.xlsx
+══════════════════════════════════════════════════════════════
+
+[ 1/120] SmartBear (smartbear.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 27 results (total ≈ ?)
+    ✓  27 new prospects collected
+
+[ 2/120] GoDaddy (godaddy.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 100 results (total ≈ ?)
+    ✓  100 new prospects collected
+
+[ 3/120] Algolia (algolia.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 19 results (total ≈ ?)
+    ✓  19 new prospects collected
+
+[ 4/120] F5 (f5.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 100 results (total ≈ ?)
+    ✓  100 new prospects collected
+
+[ 5/120] New Relic (newrelic.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 70 results (total ≈ ?)
+    ✓  70 new prospects collected
+
+[ 6/120] Canonical (canonical.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 43 results (total ≈ ?)
+    ✓  43 new prospects collected
+
+[ 7/120] Travelport (travelport.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 45 results (total ≈ ?)
+    ✓  45 new prospects collected
+
+[ 8/120] LaunchDarkly (launchdarkly.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 23 results (total ≈ ?)
+    ✓  23 new prospects collected
+
+[ 9/120] New Era Technology (neweratech.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[10/120] Precisely (precisely.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 66 results (total ≈ ?)
+    ✓  66 new prospects collected
+
+[11/120] InterSystems (intersystems.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 16 results (total ≈ ?)
+    ✓  16 new prospects collected
+
+[12/120] impact.com (impact.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 30 results (total ≈ ?)
+    ✓  30 new prospects collected
+
+[13/120] Veeam (veeam.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 88 results (total ≈ ?)
+    ✓  88 new prospects collected
+
+[14/120] Cribl (cribl.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 37 results (total ≈ ?)
+    ✓  37 new prospects collected
+
+[15/120] Education Horizons (educationhorizons.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[16/120] DDN (ddn.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 31 results (total ≈ ?)
+    ✓  31 new prospects collected
+
+[17/120] Teradata (teradata.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 94 results (total ≈ ?)
+    ✓  94 new prospects collected
+
+[18/120] Jamf (jamf.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 45 results (total ≈ ?)
+    ✓  45 new prospects collected
+
+[19/120] SS&C Eze (ezesoft.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 38 results (total ≈ ?)
+    ✓  38 new prospects collected
+
+[20/120] Sophos (sophos.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 66 results (total ≈ ?)
+    ✓  66 new prospects collected
+
+[21/120] Hopper (hopper.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[22/120] Bunch (the-bunch.co.uk)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[23/120] Notilyze (notilyze.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[24/120] Maisa (maisa.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[25/120] Trakti (trakti.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[26/120] EdgeTier (edgetier.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[27/120] intent (withintent.com) (withintent.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[28/120] Wunder Mobility (wundermobility.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[29/120] Hi Rasmus (hirasmus.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[30/120] Saphetor (saphetor.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[31/120] Ono AI Based HR Platform (onenewone.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[32/120] Joppy (joppy.me)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[33/120] Scorpion Circle (scorpioncircle.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[34/120] SPH Engineering (sphengineering.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[35/120] PEAX AG (peax.ch)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[36/120] Spotware (spotware.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[37/120] Applivery (applivery.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[38/120] Datavid (datavid.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[39/120] PlatformE (platforme.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[40/120] Genestack (genestack.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[41/120] Learnifier (learnifier.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[42/120] Capture Group (capture.eu)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[43/120] Kaizen Technology (kaizentech.net)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[44/120] BotsCrew (botscrew.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[45/120] IPXO (ipxo.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[46/120] codoc (codoc.co)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[47/120] OGA.ai (oga.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[48/120] Siteflow (siteflow.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[49/120] Allphins (allphins.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[50/120] StreamUnlimited (streamunlimited.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[51/120] Storyteller (getstoryteller.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[52/120] Zertificon Solutions (zertificon.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[53/120] Person Centred Software (personcentredsoftware.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[54/120] RIIICO (riiico.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[55/120] Insly (insly.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[56/120] Alteia (alteia.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[57/120] Clinomic (clinomic.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[58/120] Openvia Mobility (openvia.io)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[59/120] YBVR (ybvr.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[60/120] GEEIQ (geeiq.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[61/120] Capcade (capcade.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[62/120] GemOne (gemone.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[63/120] heyData (heydata.eu)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[64/120] EXADS (exads.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[65/120] Boardwise (boardwise.io)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[66/120] Curvestone AI (curvestone.io)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[67/120] Keesing Technologies (keesingtechnologies.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[68/120] Abtrace (abtrace.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[69/120] Embeddable (embeddable.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[70/120] Modell Aachen (modell-aachen.de)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[71/120] Nuvolar Works (nuvolarworks.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[72/120] Simplicate (simplicate.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[73/120] Tomplay (tomplay.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[74/120] Revenue.AI (revenue.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[75/120] Exacaster (exacaster.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[76/120] Crunch (crunch-is.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[77/120] ventopay (ventopay.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[78/120] Signapse (signapse.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[79/120] Invenda Group AG (invendagroup.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[80/120] My1Login (my1login.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[81/120] intelmatix (intelmatix.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[82/120] JACO (jaco.live)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[83/120] Zip24 (zip24.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[84/120] InnovationTeam (innovationteam.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[85/120] Salla (salla.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[86/120] Syarah (syarah.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[87/120] Jahez International Company (jahezgroup.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[88/120] EjadTech (ejadtech.sa)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[89/120] AQAR عقار (aqar.fm)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[90/120] MRSOOL (mrsool.co)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[91/120] ToYou (toyou.io)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[92/120] THIQAH (thiqah.sa)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 13 results (total ≈ ?)
+    ✓  13 new prospects collected
+
+[93/120] HudHud Maps (hudhud.sa)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[94/120] Floward (floward.co)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[95/120] HungerStation (hungerstation.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[96/120] Foodics (foodics.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 14 results (total ≈ ?)
+    ✓  14 new prospects collected
+
+[97/120] Juleb (juleb.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[98/120] Onsor (onsor.om)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[99/120] Snoonu (snoonu.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 20 results (total ≈ ?)
+    ✓  20 new prospects collected
+
+[100/120] Beyon Connect (beyonconnect.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[101/120] VOIXME (voix.me)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[102/120] OSOS (osos.om)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[103/120] Rafeeq (gorafeeq.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[104/120] Salam Technology (salamtechnology.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[105/120] Lillia (lilliacare.ai)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[106/120] Ghaia.ai (ghaia.ai)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[107/120] eMushrif (emushrif.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[108/120] Avey (avey.ai)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[109/120] Mitigata (mitigata.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[110/120] Symbo (symbo.co)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[111/120] Friendsurance (friendsurance.de)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[112/120] Alteos (alteos.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[113/120] Stubben Edge (stubbenedge.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[114/120] Shory (shory.com)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[115/120] YallaCompare (yallacompare.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[116/120] Igloo (iglooinsure.com)
+    [CRM]  Page   1/1 — 4 results (total ≈ 4)
+    ✓  4 CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[117/120] SecureNow Insurance Broker (securenow.in)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[118/120] Quickinsure (quickinsure.co.in)
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[119/120] Centivax (centivax.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[120/120] d2i (d2ihc.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+──────────────────────────────────────────────────────────────
+  Total unique contacts  : 1321
+    ├─ CRM contacts      : 136  (already saved in Apollo)
+    └─ New prospects     : 1185  (new leads, not yet saved)
+
+  ✅  Searched API Output Saved → 'output/apollo_people_search_22jun2026_112229.xlsx'
+            ├───── Total contacts     : 1321
+            ├───── CRM contacts       : 136  (already saved in Apollo)
+            ├───── New prospects      : 1185  (not yet saved)
+            └───── Pre-enriched       : 136  (have email already)
+
+  ─── NEXT STEP ───────────────────────────────────────────
+  1. Open 'c:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\scripts\..\output\apollo_people_search_22jun2026_112229.xlsx'
+  2. Review the Contacts sheet — filter rows you want
+  3. Save filtered rows as a new file
+  4. Run Script 2 (STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py) to enrich + save
+     Note: CRM_CONTACT rows are already saved — tracker will
+     skip re-enriching them if already processed before.
+──────────────────────────────────────────────────────────────
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> & C:\Users\tejas\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py"
+
+══════════════════════════════════════════════════════════════
+  Apollo Bulk People Enrichment — Step 2 of 2
+  Endpoint: POST /api/v1/people/bulk_match
+══════════════════════════════════════════════════════════════
+  Input file            : output/apollo_people_search_22jun2026_112229.xlsx
+  Output file           : output/apollo_enriched_22jun2026_131035.xlsx
+  Batch size (enrich)   : 10  (Apollo max per bulk_match call)
+  Batch size (CRM save) : 100  (Apollo max per bulk_create call)
+  Reveal personal email : True
+  Reveal phone number   : False
+  Create in CRM now     : True
+  Labels to apply       : Created_with_ApolloAPI
+══════════════════════════════════════════════════════════════
+
+  Loaded 1152 contacts from 'output/apollo_people_search_22jun2026_112229.xlsx'
+  🧠  Seeding Master DB with 136 CRM contacts from input...
+
+  🧠  Master DB Updated Successfully ✅
+            ├───── Updated existing      : 0
+            ├───── Inserted new          : 136
+            ├───── Total records in DB   : 3356
+            ├───── Enriched (API called) : 3352
+            ├───── In CRM                : 3352
+            └───── Have email            : 2970
+
+  👀  View Master DB File 👉 → 'output/master_lead_database.xlsx'
+
+  🧠  Smart Filter Summary Before Enrichment:
+       ├─ Total input            : 1152
+       ├─ To enrich (NEW)        : 1016
+       ├─ Skipped (total)        : 136
+       │   ├─ Master DB dupes    : 136
+       │   └─ CRM pre-enriched   : 0
+       └─ Credits saved          : 136  🎉🫀
+  Processing 1152 contacts in 102 batch(es) of 10...
+
+  Batch   1/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   2/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   3/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   4/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   5/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   6/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   7/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   8/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   9/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  10/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  11/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  12/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  13/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  14/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  15/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  16/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  17/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  18/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  19/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  20/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  21/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  22/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  23/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  24/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  25/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  26/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  27/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  28/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  29/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  30/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  31/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  32/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  33/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  34/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  35/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  36/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  37/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  38/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  39/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  40/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  41/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  42/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  43/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  44/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  45/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  46/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  47/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  48/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  49/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  50/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  51/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  52/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  53/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  54/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  55/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  56/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  57/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  58/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  59/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  60/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  61/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  62/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  63/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  64/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  65/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  66/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  67/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  68/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  69/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  70/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  71/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  72/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  73/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  74/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  75/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  76/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  77/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  78/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  79/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  80/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  81/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  82/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  83/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  84/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  85/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  86/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  87/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  88/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  89/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  90/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  91/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  92/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  93/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  94/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  95/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  96/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  97/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  98/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  99/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 100/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 101/102  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 102/102  (6 IDs)... ✓  matched=6  missing=0  credits=6
+
+──────────────────────────────────────────────────────────────
+
+  ✅  Saved → 'output/apollo_enriched_22jun2026_131035.xlsx'
+       ├───── Mode: Multi Sheets
+       ├───── Enriched (all rows)    : 1152
+       ├───── Matched  (API success) : 1016
+       ├───── Unmatched              : 136
+       └───── CRM Save (bulk_create) : 1016
+
+  Unmatched person IDs (136): 66f68a6df948a80001e6e729, 60712dd0d7ace3000144c47e, 675b1863c06e6400015d9224, 54a46b8074686938ac883746, 60f7e5bf9724050001d82b5e...
+  ─── SHEETS GUIDE ────────────────────────────────────────
+  'Enriched'  = ALL input rows (matched + unmatched, same order)
+  'Matched'   = Rows where Apollo API returned data (not guaranteed to have email) 
+  'Unmatched' = Rows Apollo could not find any match
+  'CRM Save'  = Ready for CRM upload via 'contacts/bulk_create' API
+  ─────────────────────────────────────────────────────────
+  🚨🚨🚨 Total enrichment credits consumed : 1016
+
+  Saving 1016 contacts to Apollo CRM in 11 batch(es)...
+
+  CRM Batch   1/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   2/11  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch   3/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   4/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   5/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   6/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   7/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   8/11  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   9/11  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch  10/11  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch  11/11  (16 contacts)... ✓  created=16  existing=0
+
+  ── CRM Save Completed ✅ ──────────────────────────────────
+     Total created  : 1013
+     Total existing : 3  (already in your CRM, not duplicated)
+
+  🧠  Master DB Updated Successfully ✅
+            ├───── Updated existing      : 136
+            ├───── Inserted new          : 1016
+            ├───── Total records in DB   : 4372
+            ├───── Enriched (API called) : 4368
+            ├───── In CRM                : 4368
+            └───── Have email            : 3824
+
+  👀  View Master DB File 👉 → 'output/master_lead_database.xlsx'
+
+  ════════════════════════════════════════════════════════════
+  ✅  Run Complete 🏁
+       ├───── ✨ Enriched this run      : 1016  contacts
+       ├───── 💰 Credits consumed       : 1016  
+       ├───── 🔽 Output saved           : output/apollo_enriched_22jun2026_131035.xlsx
+       └───── 🔐 Master DB              : output/master_lead_database.xlsx
+  ════════════════════════════════════════════════════════════
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> & C:\Users\tejas\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_3_apollo_to_ignite_format.py"
+
+══════════════════════════════════════════════════════════════
+  Scrapped Data Formatter for Ignite Sheet — Final Step (3 of 3) 😎
+  Apollo Master Lead DB   →  LinkedIn Ignite Format
+══════════════════════════════════════════════════════════════
+  Source file  : master_lead_database.xlsx
+  Output file  : output/ignite_ready_contacts_<timestamp>.xlsx
+  Mode         : Master DB
+══════════════════════════════════════════════════════════════
+
+  Source: Master DB → master_lead_database.xlsx
+
+ 👉  Input Data Load Summary:
+          ├───── Total rows loaded   : 4372
+          ├───── Enriched contacts   : 4368
+          ├───── Have email          : 3824
+          └───── Have LinkedIn URL   : 4368
+
+
+  🚨🚨🚨 Unmapped Countries Found : 5
+  Saved → unmapped_countries_22jun2026_134742.csv
+  👉 Fix mapping before running again.
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> & C:\Users\tejas\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_3_apollo_to_ignite_format.py"
+
+══════════════════════════════════════════════════════════════
+  Scrapped Data Formatter for Ignite Sheet — Final Step (3 of 3) 😎
+  Apollo Master Lead DB   →  LinkedIn Ignite Format
+══════════════════════════════════════════════════════════════
+  Source file  : master_lead_database.xlsx
+  Output file  : output/ignite_ready_contacts_<timestamp>.xlsx
+  Mode         : Master DB
+══════════════════════════════════════════════════════════════
+
+  Source: Master DB → master_lead_database.xlsx
+
+ 👉  Input Data Load Summary:
+          ├───── Total rows loaded   : 4372
+          ├───── Enriched contacts   : 4368
+          ├───── Have email          : 3824
+          └───── Have LinkedIn URL   : 4368
+
+  🌍  Region Mapping Completed ✅:
+       ├─ Africa              : 37
+       ├─ Asia-Pacific        : 1167
+       ├─ Europe              : 927
+       ├─ Latin America       : 24
+       ├─ Middle East         : 273
+       ├─ North America       : 1923
+       ├─ Southeast Asia      : 3
+       ├─ UnknownRegion       : 18
+
+
+  ✅  Ignite Contacts File Ready → 'output/ignite_ready_contacts_22jun2026_135329.xlsx'
+            └─ Total contacts Rows          : 4372
+                 ├─── Have LinkedIn         : 4368  (LinkedIn Ignite ready)
+                 └─── Email Counts
+                        ├── Have Email      : 3824
+                        └── No email        : 548  (LinkedIn-only outreach)
+
+  ════════════════════════════════════════════════════════════
+  ✅  Run Completed 🏁
+       └─── 👀 View Output File 👉 → 'output/ignite_ready_contacts_22jun2026_135329.xlsx'
+  ════════════════════════════════════════════════════════════
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> & C:\Users\tejas\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_4_apollo_ignite_master_merger.py"
+
+══════════════════════════════════════════════════════════════
+  Ignite Master Merger — Step 4 of 4
+  mergeSourceSheetsIntoMaster  (Python Port)
+══════════════════════════════════════════════════════════════
+  Master file   : Scrapped Master Data By Tejas - Apollo-Utility.xlsx
+  Source file   : ignite_ready_contacts_22jun2026_135329.xlsx
+  Output file   : ignite_master_merged_22jun2026_135423.xlsx
+  Dedup columns : First Name, Last Name, Email
+  Occurrence    : First kept (master priority)
+══════════════════════════════════════════════════════════════
+
+  Reading Master: Scrapped Master Data By Tejas - Apollo-Utility.xlsx  [sheet='Sheet1']
+  └─ Loaded 4637 rows  (21 columns)
+
+  Output will have 21 columns.
+
+  Loading master rows...
+  └─ 4637 unique master rows loaded.
+
+  Reading Source: ignite_ready_contacts_22jun2026_135329.xlsx  [sheet='Sheet1']
+  └─ Loaded 4372 rows  (21 columns)
+
+  Merging source rows...
+  └─ Added (new)     : 1149
+  └─ Skipped (exact) : 3207
+  └─ Name-merged     : 16  (same name, different email -> kept more complete row)
+
+──────────────────────────────────────────────────────────────
+  ✅  Saved -> 'ignite_master_merged_22jun2026_135423.xlsx'
+       ├─ Master rows    : 4637
+       ├─ Source rows    : 4372
+       ├─ New rows added : 1149
+       ├─ Duplicates     : 3207
+       ├─ Name-merged    : 16
+       └─ Total output   : 5786 unique rows
+══════════════════════════════════════════════════════════════
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper> 
+

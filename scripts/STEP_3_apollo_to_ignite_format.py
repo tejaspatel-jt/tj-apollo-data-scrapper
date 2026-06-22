@@ -62,14 +62,23 @@ OUTPUT_FILE = os.path.join(
 COUNTRY_REGION_MAP = {
     "Africa": [
             "Kenya", "Mauritius", "Nigeria", "South Africa", "Sudan",
-            "Côte d'Ivoire", "Madagascar", "Rwanda"
+            "Côte d'Ivoire", "Madagascar", "Rwanda", "Morocco"
+            
+            # Additional countries in Africa
+            "Uganda", "Zambia", "Zimbabwe", "Algeria", "Angola",
+            "Benin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde", "Cameroon", "Central African Republic", "Chad", "Comoros", "Congo (Brazzaville)", "Congo (Kinshasa)", "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Eswatini", "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Lesotho", "Liberia", "Libya", "Malawi", "Mali", "Mauritania", "Morocco", "Mozambique", "Namibia", "Niger", "São Tomé and Príncipe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Tanzania", "Togo", "Tunisia", "Western Sahara"
+
         ],
         "Asia-Pacific": [
             "Australia", "Bangladesh", "China", "Hong Kong", 
             "India",
             "Japan", "Kazakhstan", "Maldives", "New Zealand", "Pakistan",
             "South Korea", "Sri Lanka", "Papua New Guinea",
-            "Cocos (Keeling) Islands", "Taiwan"
+            "Cocos (Keeling) Islands", "Taiwan", 
+            
+            # Additional countries in Asia-Pacific
+            "Tajikistan", "Turkmenistan", "Uzbekistan", "Afghanistan", "Bhutan",
+            "Thailand", "Vietnam", "Brunei", "Cambodia", "Fiji", "Indonesia", "Laos", "Malaysia", "Mongolia", "Myanmar (Burma)", "Nepal", "Philippines", "Singapore", "Solomon Islands", "Timor-Leste", "Vanuatu", 
         ],
         "Europe": [
             "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
@@ -80,7 +89,16 @@ COUNTRY_REGION_MAP = {
             "Monaco", "Netherlands", "Norway", "Poland", "Portugal", "Romania",
             "Russia", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden",
             "Switzerland", "Ukraine", "United Kingdom","Armenia","Jersey","Kosovo",
-            "Montenegro", "North Macedonia"
+            "Montenegro", "North Macedonia", "Andorra", 
+            
+            # Additional countries in Europe
+            "Isle of Man", "San Marino", "Vatican City", "Albania","Belarus","Bosnia and Herzegovina",
+            "Bulgaria","Croatia","Cyprus","Czech Republic","Czechia","Denmark",
+            "Estonia","Finland","France","Georgia","Germany","Greece","Hungary",
+            "Iceland","Ireland","Italy","Latvia","Liechtenstein","Lithuania",
+            "Luxembourg","Macedonia (FYROM)","Malta","Moldova","Monaco","Netherlands","Norway","Poland","Portugal",
+            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Armenia","Jersey"
+
         ],
         "Latin America": [
             "Brazil", "British Virgin Islands","Ecuador","Argentina","Colombia","Uruguay",
