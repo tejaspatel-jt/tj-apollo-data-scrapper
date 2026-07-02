@@ -1196,10 +1196,7 @@ def main():
     total_batches = len(batches)
     total_credits = 0
 
-    # Wrong log and it's misguiding, because we are not enriching all contacts, only the filtered ones
-    # print(f"  Processing {total} contacts in {total_batches} batch(es) of {BATCH_SIZE}...\n")
-
-    print(f"  Processing {len(person_ids_all)} contacts (after filtering) in {total_batches} batch(es) of {BATCH_SIZE}...\n")
+    print(f"  Processing {total} contacts in {total_batches} batch(es) of {BATCH_SIZE}...\n")
 
     enrich_map = {}  # apollo_person_id → flattened enriched dict
 
