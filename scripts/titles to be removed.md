@@ -508,3 +508,9 @@
 | Staff Software Engineer (Platform Engineering) |
 | Supervisor Platform Engineering Team, Emeia |
 | Technical Project Manager, Office of the CTO |
+| Office of the CTO, Director |
+| Strategic Operations Director, CEO Office |
+| Founder’s Office Intern |
+| Founder's Office Intern |
+| Technical Staff, CTO Office |
+
