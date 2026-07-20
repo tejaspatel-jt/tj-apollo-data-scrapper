@@ -61,7 +61,7 @@ MAX_PAGES     = 500   # Apollo hard cap (50k results); reduce to limit credits
 REQUEST_DELAY = 1.2   # Seconds to wait between API calls (avoid rate-limiting)
 
 # Treat these placeholder values as blank when reading input CSV
-NA_TOKENS = {"na", "n/a", "none", "null", "-", ""}
+NA_TOKENS = {"na", "n/a", "N/A","none", "null", "Unknown", "-", ""}
 
 # Decision-maker title filters (edit freely)
 PERSON_TITLES = [

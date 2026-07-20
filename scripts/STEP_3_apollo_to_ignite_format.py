@@ -62,11 +62,11 @@ OUTPUT_FILE = os.path.join(
 COUNTRY_REGION_MAP = {
     "Africa": [
             "Kenya", "Mauritius", "Nigeria", "South Africa", "Sudan",
-            "Côte d'Ivoire", "Madagascar", "Rwanda", "Morocco"
+            "Côte d'Ivoire", "Madagascar", "Rwanda", "Morocco",
             
             # Additional countries in Africa
             "Uganda", "Zambia", "Zimbabwe", "Algeria", "Angola",
-            "Benin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde", "Cameroon", "Central African Republic", "Chad", "Comoros", "Congo (Brazzaville)", "Congo (Kinshasa)", "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Eswatini", "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Lesotho", "Liberia", "Libya", "Malawi", "Mali", "Mauritania", "Morocco", "Mozambique", "Namibia", "Niger", "São Tomé and Príncipe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Tanzania", "Togo", "Tunisia", "Western Sahara"
+            "Benin", "Botswana", "Burkina Faso", "Burundi", "Cabo Verde", "Cameroon", "Central African Republic", "Chad", "Comoros", "Congo (Brazzaville)", "Congo (Kinshasa)", "Djibouti", "Equatorial Guinea", "Eritrea", "Eswatini", "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Lesotho", "Liberia", "Libya", "Malawi", "Mali", "Mauritania", "Mozambique", "Namibia", "Niger", "São Tomé and Príncipe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Tanzania", "Togo", "Tunisia", "Western Sahara"
 
         ],
         "Asia-Pacific": [
@@ -78,7 +78,7 @@ COUNTRY_REGION_MAP = {
             
             # Additional countries in Asia-Pacific
             "Tajikistan", "Turkmenistan", "Uzbekistan", "Afghanistan", "Bhutan",
-            "Thailand", "Vietnam", "Brunei", "Cambodia", "Fiji", "Indonesia", "Laos", "Malaysia", "Mongolia", "Myanmar (Burma)", "Nepal", "Philippines", "Singapore", "Solomon Islands", "Timor-Leste", "Vanuatu", 
+            "Brunei", "Cambodia", "Fiji", "Laos", "Mongolia", "Nepal", "Solomon Islands", "Timor-Leste", "Vanuatu", "Kyrgyzstan"
         ],
         "Europe": [
             "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
@@ -88,29 +88,32 @@ COUNTRY_REGION_MAP = {
             "Lithuania", "Luxembourg", "Macedonia (FYROM)", "Malta", "Moldova",
             "Monaco", "Netherlands", "Norway", "Poland", "Portugal", "Romania",
             "Russia", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden",
-            "Switzerland", "Ukraine", "United Kingdom","Armenia","Jersey","Kosovo",
-            "Montenegro", "North Macedonia", "Andorra", 
+            "Switzerland", "Ukraine", "United Kingdom", "Jersey", "Kosovo",
+            "Montenegro", "North Macedonia", "Andorra", "London", "Vatican City", "San Marino",
             
             # Additional countries in Europe
-            "Isle of Man", "San Marino", "Vatican City", "Albania","Belarus","Bosnia and Herzegovina",
+            "Isle of Man", "Albania","Bosnia and Herzegovina",
             "Bulgaria","Croatia","Cyprus","Czech Republic","Czechia","Denmark",
             "Estonia","Finland","France","Georgia","Germany","Greece","Hungary",
             "Iceland","Ireland","Italy","Latvia","Liechtenstein","Lithuania",
-            "Luxembourg","Macedonia (FYROM)","Malta","Moldova","Monaco","Netherlands","Norway","Poland","Portugal",
-            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Armenia","Jersey"
+            "Malta", "Moldova","Monaco","Netherlands","Norway","Poland","Portugal",
+            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Jersey"
 
         ],
         "Latin America": [
             "Brazil", "British Virgin Islands","Ecuador","Argentina","Colombia","Uruguay",
-            "Chile", "Saint Lucia"
+            "Chile", "Saint Lucia", "Mexico",
+            
+            # Additional countries in Latin America
+            "Peru", "Costa Rica", "Panama", "Venezuela", "Bolivia", "Paraguay", "Guyana", "Suriname", "Belize", "El Salvador", "Guatemala", "Honduras", "Nicaragua"
         ],
         "Middle East": [
             "Bahrain", "Egypt", "Iraq", "Israel", "Jordan", "Kuwait",
             "Oman", "Qatar", "Saudi Arabia", "Tuerkiye", "Turkey",
-            "United Arab Emirates", "Iran", "Lebanon"
+            "United Arab Emirates", "Iran", "Lebanon", "Syria", "Yemen", "Palestine", "Armenia", "Azerbaijan"
         ],
         "North America": [
-            "Canada", "United States", "Mexico","Puerto Rico"
+            "Canada", "United States", "Puerto Rico", 
         ],
         "Southeast Asia": [
             "Indonesia", "Malaysia", "Myanmar (Burma)", "Philippines",
