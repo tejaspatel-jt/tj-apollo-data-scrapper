@@ -607,3 +607,11 @@
 | Product Developer and Automation |
 | Head of Product Americas & Global Head of Base Metals |
 | Product and Engineering - Support Manager |
+| Director of Product, Growth |
+| Director, Product Marketing |
+| Director of Product and Privacy Counsel |
+| Senior Manager, Talent Acquisition - Engineering/Product/Design, GTM, G&A - North America |
+| Director Talent Acquisition (APJ) - Engineering & GTM |
+| Head of Log Analytics Product Management |
+| Director of Security Product Management |
+| Senior Director, Product Design: AI, Growth, Data |
