@@ -78,7 +78,10 @@ COUNTRY_REGION_MAP = {
             
             # Additional countries in Asia-Pacific
             "Tajikistan", "Turkmenistan", "Uzbekistan", "Afghanistan", "Bhutan",
-            "Brunei", "Cambodia", "Fiji", "Laos", "Mongolia", "Nepal", "Solomon Islands", "Timor-Leste", "Vanuatu", "Kyrgyzstan"
+            "Brunei", "Cambodia", "Fiji", "Laos", "Mongolia", "Nepal", "Solomon Islands", "Timor-Leste", "Vanuatu", "Kyrgyzstan",
+            
+            # City/Country Combinations + States and territories + Regions in Asia-Pacific
+            "Richmond, Victoria"
         ],
         "Europe": [
             "Austria", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
@@ -97,7 +100,10 @@ COUNTRY_REGION_MAP = {
             "Estonia","Finland","France","Georgia","Germany","Greece","Hungary",
             "Iceland","Ireland","Italy","Latvia","Liechtenstein","Lithuania",
             "Malta", "Moldova","Monaco","Netherlands","Norway","Poland","Portugal",
-            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Jersey"
+            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Jersey",
+
+            # City/Country Combinations + States and territories + Regions in Europe
+            "Zurich", "Oxford", "England"
 
         ],
         "Latin America": [
@@ -114,11 +120,17 @@ COUNTRY_REGION_MAP = {
         ],
         "North America": [
             "Canada", "United States", "Puerto Rico", 
+
+            # City/Country Combinations + States and territories + Regions in North America
+            "Montreal", "Somerville", "San Francisco", "California"
         ],
         "Southeast Asia": [
             "Indonesia", "Malaysia", "Myanmar (Burma)", "Philippines",
             "Singapore", "Thailand", "Vietnam",
-            "Republic of Indonesia"
+            "Republic of Indonesia", 
+            
+            # City/Country Combinations + States and territories + Regions in Southeast Asia
+            "Outram"
 
         ]
 }
