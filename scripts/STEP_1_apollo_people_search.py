@@ -229,7 +229,7 @@ def load_companies():
             "company name": ["company name", "name"],
             "domain": ["company domain", "website", "domain"],
             "org industry": ["org industry", "industry"],
-            "org employees": ["org employees", "employees"],
+            "org employees": ["org employees", "org employees count","employees"],
         }
 
         def get_col(df, possible_names):
