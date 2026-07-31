@@ -100,7 +100,7 @@ COUNTRY_REGION_MAP = {
             "Estonia","Finland","France","Georgia","Germany","Greece","Hungary",
             "Iceland","Ireland","Italy","Latvia","Liechtenstein","Lithuania",
             "Malta", "Moldova","Monaco","Netherlands","Norway","Poland","Portugal",
-            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Jersey",
+            "Romania","Russia","Serbia","Slovakia","Slovenia","Spain","Sweden","Switzerland","Ukraine","United Kingdom","Jersey", "Gibraltar",
 
             # City/Country Combinations + States and territories + Regions in Europe
             "Zurich", "Oxford", "England"

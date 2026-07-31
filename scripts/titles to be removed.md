@@ -615,3 +615,26 @@
 | Head of Log Analytics Product Management |
 | Director of Security Product Management |
 | Senior Director, Product Design: AI, Growth, Data |
+| Head of Customer Experience Engineering |
+| Principal Director of Sales Engineering |
+| Partner Solutions Engineering Director |
+| Executive Director Sales Engineering International |
+| Director, Solutions Engineering & CX Operations |
+| Director, Sales Engineering |
+| Associate Vice President, Solutions Engineering |
+| Sr. Manager, Value Engineering & Product Analytics |
+| Director of Revenue Enablement & Product Marketing |
+| Senior Director, Product Marketing |
+| Senior Director of Product Marketing |
+| Digital and Product Marketing Programmes Director |
+| Sr. Director of Product Marketing |
+| Associate, Office of the CEO |
+| Director, Executive Operations and Strategic Initiatives \| Office of the CEO |
+| Vice President, Chief of Staff to CEO |
+| Founding Member, Office of the CTO (OCTO) |
+| Business Development - CEO Office |
+| CEO Office / Business Development |
+| Senior Executive Assistant to CPO, CTO / Co-founder, EVP of Eng, & SVP of Prod |
+| Head of Talent Acquisition - R&D / G&A / Recruiting Operations |
+| Vice President, Associate General Counsel, Product, Data & Disputes |
+| Vice President Underwriting, Product, & Chief Actuary |
