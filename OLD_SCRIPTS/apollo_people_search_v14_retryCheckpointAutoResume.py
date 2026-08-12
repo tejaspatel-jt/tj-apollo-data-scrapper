@@ -60,6 +60,20 @@ PER_PAGE      = 100   # Apollo max is 100 per page
 MAX_PAGES     = 500   # Apollo hard cap (50k results); reduce to limit credits
 REQUEST_DELAY = 1.2   # Seconds to wait between API calls (avoid rate-limiting)
 
+# ── 10. RESILIENCE (network retries + checkpointing) ──────────────────────
+# Long runs (300+ companies) occasionally hit a plain TCP/SSL connection
+# reset — not an Apollo error, just the network dropping a long-lived
+# connection. These retries handle that transparently.
+MAX_RETRIES        = 5   # per API call, only for connection-level failures
+RETRY_BACKOFF_BASE = 5   # seconds; doubles each retry → 5, 10, 20, 40, 80s
+
+# Progress is written here after EVERY company, not just at the end — so a
+# crash never costs you more than the one company being processed when it
+# happened. On the next run, already-completed companies are skipped
+# automatically. Deleted automatically once a run finishes successfully.
+CHECKPOINT_FILE          = os.path.join(OUTPUT_DIR, "_checkpoint_in_progress.csv")
+RESUME_FROM_CHECKPOINT   = True
+
 # Treat these placeholder values as blank when reading input CSV
 NA_TOKENS = {"na", "n/a", "N/A","none", "null", "Unknown", "-", ""}
 
@@ -415,6 +429,65 @@ def load_companies():
         return COMPANIES
 
 # API - FETCH NEW PEOPLE, NOT SAVED IN CRM ( NO CREDITS CONSUMED )
+def robust_post(url, **kwargs):
+    """
+    Wraps requests.post with retries for transient NETWORK failures
+    (connection reset, SSL handshake failure, read timeout) — the kind
+    that show up as WinError 10054 mid-run. This is separate from the
+    existing 429 rate-limit handling inside search_people/search_contacts,
+    which deals with actual HTTP responses, not dropped connections.
+    """
+    last_exc = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return requests.post(url, **kwargs)
+        except (requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout,
+                requests.exceptions.ChunkedEncodingError) as exc:
+            last_exc = exc
+            wait = RETRY_BACKOFF_BASE * (2 ** (attempt - 1))
+            print(f"    ⚠  Network error ({type(exc).__name__}) — retry {attempt}/{MAX_RETRIES} in {wait}s...")
+            time.sleep(wait)
+    raise last_exc
+
+
+def load_checkpoint():
+    """
+    Loads an in-progress checkpoint left behind by a run that crashed or
+    was interrupted. Returns (rows_already_collected, set_of_done_domains).
+    """
+    if RESUME_FROM_CHECKPOINT and os.path.exists(CHECKPOINT_FILE):
+        try:
+            ck_df = pd.read_csv(CHECKPOINT_FILE, dtype=str)
+            done_domains = set(
+                ck_df["searched_domain"].dropna().str.strip().str.lower()
+            )
+            print(f"  ↻  Resuming from checkpoint: {len(ck_df)} rows already "
+                  f"collected across {len(done_domains)} companies\n")
+            return ck_df.to_dict("records"), done_domains
+        except Exception as e:
+            print(f"  ⚠  Checkpoint file exists but couldn't be read ({e}) — starting fresh.\n")
+    return [], set()
+
+
+def append_to_checkpoint(rows):
+    """Append one company's rows to the checkpoint CSV immediately."""
+    if not rows:
+        return
+    ck_df = pd.DataFrame(rows)
+    write_header = not os.path.exists(CHECKPOINT_FILE)
+    ck_df.to_csv(CHECKPOINT_FILE, mode="a", index=False, header=write_header)
+
+
+def clear_checkpoint():
+    """Remove the checkpoint file after a run completes successfully."""
+    if os.path.exists(CHECKPOINT_FILE):
+        try:
+            os.remove(CHECKPOINT_FILE)
+        except OSError:
+            pass
+
+
 def search_people(domain, company_name, person_seniorities=None):
     """
     Paginate through /mixed_people/api_search for one domain.
@@ -424,7 +497,7 @@ def search_people(domain, company_name, person_seniorities=None):
     page = 1
 
     while page <= MAX_PAGES:
-        response = requests.post(
+        response = robust_post(
             f"{BASE_URL}/mixed_people/api_search",
             params={"per_page": PER_PAGE, "page": page},
             json={
@@ -480,7 +553,7 @@ def search_contacts(domain, company_name, person_seniorities=None):
     page = 1
 
     while page <= MAX_PAGES:
-        response = requests.post(
+        response = robust_post(
             f"{BASE_URL}/contacts/search",
             json={
                 "q_organization_domains_list": [domain],
@@ -738,7 +811,15 @@ def main():
     print(f"  Master DB      : {MASTER_DB}")
     print("═" * 62 + "\n")
 
-    all_rows = []
+    all_rows, done_domains = load_checkpoint()
+    original_total = len(companies)
+    if done_domains:
+        companies = [
+            c for c in companies
+            if c["domain"].strip().lower() not in done_domains
+        ]
+        print(f"  Skipping {original_total - len(companies)} already-completed "
+              f"companies — {len(companies)} remaining\n")
 
     for idx, company in enumerate(companies, 1):
         name   = company["name"]
@@ -750,12 +831,13 @@ def main():
         if "manager" in seniorities:
             print(f"    ℹ  Small/unknown headcount — including 'manager' seniority too")
 
+        company_rows = []
+
         # ── 1. Search already-saved CRM contacts (no enrichment credits) ──
         crm_contacts = search_contacts(domain, name, seniorities)
         if crm_contacts:
-            # rows = [flatten_person(c, name, domain, "CRM_CONTACT") for c in crm_contacts]
             rows = [flatten_person(c, company, "CRM_CONTACT") for c in crm_contacts]
-            all_rows.extend(rows)
+            company_rows.extend(rows)
             print(f"    ✓  {len(rows)} CRM contacts found")
         else:
             print(f"    –  No CRM contacts found")
@@ -763,12 +845,14 @@ def main():
         # ── 2. Search new/prospect people ─────────────────────────────────
         new_people = search_people(domain, name, seniorities)
         if new_people:
-            # rows = [flatten_person(p, name, domain, "NEW_PROSPECT") for p in new_people]
             rows = [flatten_person(p, company, "NEW_PROSPECT") for p in new_people]
-            all_rows.extend(rows)
+            company_rows.extend(rows)
             print(f"    ✓  {len(rows)} new prospects collected")
         else:
             print(f"    –  No new prospects found")
+
+        all_rows.extend(company_rows)
+        append_to_checkpoint(company_rows)   # 🔥 saved to disk NOW, not just at the end
 
         print()
         time.sleep(REQUEST_DELAY)
@@ -816,6 +900,8 @@ def main():
 
     if CREATE_MASTER_DB:
         update_master_db(df)
+
+    clear_checkpoint()   # run completed successfully — no need to resume next time
 
     print()
     print("  ─── NEXT STEP ───────────────────────────────────────────")

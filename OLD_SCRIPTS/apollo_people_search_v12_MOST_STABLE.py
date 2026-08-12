@@ -61,7 +61,7 @@ MAX_PAGES     = 500   # Apollo hard cap (50k results); reduce to limit credits
 REQUEST_DELAY = 1.2   # Seconds to wait between API calls (avoid rate-limiting)
 
 # Treat these placeholder values as blank when reading input CSV
-NA_TOKENS = {"na", "n/a", "N/A","none", "null", "Unknown", "-", ""}
+NA_TOKENS = {"na", "n/a", "none", "null", "-", ""}
 
 # Decision-maker title filters (edit freely)
 PERSON_TITLES = [
@@ -98,141 +98,6 @@ PERSON_TITLES = [
     "vpe",
     "vp eng",
 ]
-
-# ── Seniority filter (Apollo `person_seniorities`) ────────────────────────
-# This is the single biggest lever for cutting your manual cleanup.
-# Apollo tags every person with a current-role seniority: owner, founder,
-# c_suite, partner, vp, head, director, manager, senior, entry, intern.
-# Almost everything you've been deleting by hand — "Platform Engineer",
-# "Product Engineer", "QA Manager", "Engineering Manager" — sits at
-# manager/senior/entry seniority, NOT director+. Restricting to director+
-# removes that noise at the API level, before you ever see it, without
-# needing to touch PERSON_TITLES wording at all.
-BASE_SENIORITIES = ["owner", "founder", "c_suite", "vp", "head", "director"]
-
-# At very small companies, titles deflate — "Engineering Manager" or
-# "Platform Engineering Manager" can be the most senior engineering person
-# the company has (this is exactly what titles_whitelisted_later.md shows).
-# Below this employee count, "manager" seniority is included too, so you
-# don't lose real decision-makers at small startups.
-SMALL_COMPANY_EMPLOYEE_THRESHOLD = 50
-
-# Only matters when using person_titles[] — set False so Apollo returns
-# strict matches only, instead of also pulling in "related" titles (e.g.
-# searching "platform engineering" returning "Site Reliability Engineer").
-INCLUDE_SIMILAR_TITLES = False
-
-
-def seniorities_for_company(company):
-    """
-    Returns the person_seniorities[] list to use for one company.
-    Adds 'manager' for small companies where titles run junior.
-    """
-    seniorities = list(BASE_SENIORITIES)
-    emp_raw = str(company.get("org_employees_input", "") or "")
-    match = re.search(r"\d+", emp_raw.replace(",", ""))
-    if match:
-        try:
-            if int(match.group()) < SMALL_COMPANY_EMPLOYEE_THRESHOLD:
-                seniorities.append("manager")
-        except ValueError:
-            pass
-    else:
-        # Unknown headcount — err on the side of including 'manager' so we
-        # don't silently miss small/unlisted companies.
-        seniorities.append("manager")
-    return seniorities
-
-
-# ── Post-fetch title classifier ───────────────────────────────────────────
-# Belt-and-suspenders on top of the seniority filter above. Catches
-# functional mismatches that seniority alone won't (a "Director of Product
-# Marketing" or "Head of Talent Acquisition" IS director-level, but still
-# isn't who JigNect wants to talk to). Built from patterns in your
-# titles_to_be_removed.md. Nothing is ever silently dropped — every row
-# gets tagged KEEP or REVIEW and both are written to the output file.
-
-# Checked FIRST, before the positive-override list. These are support/staff
-# roles by definition — even if the title contains "CEO" or "CTO" (e.g.
-# "Executive Assistant to Chief Executive Officer"), the person in the seat
-# is not the decision-maker, so no override should rescue them.
-HARD_EXCLUDE_PATTERNS = [
-    r"executive assistant to|senior executive assistant to|chief of staff to",
-    r"office of the ceo|office of the cto|office of the cpo|ceo'?s? office|founder'?s? office|founding office",
-]
-
-EXCLUDE_TITLE_PATTERNS = [
-    r"product marketing",
-    r"sales engineering|solutions? engineering|pre-?sales engineering|customer (success|experience) engineering|customer engineering",
-    r"value engineering",
-    r"talent acquisition|talent partner|recruit(ing|er)",
-    r"general counsel|chief legal|compliance officer|\bactuary\b|\battorney\b",
-    r"quality assurance.*(manager|adherence)|manager.*quality assurance|qa.*manager|manager.*qa|qualityassurance",
-    r"\bplatform engineer\b|\bproduct engineer\b",  # bare IC titles
-]
-
-# Titles that should NEVER be excluded even if they also match a pattern
-# above — dual titles ("General Manager, Co-CTO"), small-company execs, etc.
-# (Does not override HARD_EXCLUDE_PATTERNS — see classify_title().)
-POSITIVE_OVERRIDE_PATTERNS = [
-    r"\bceo\b|chief executive officer",
-    r"\bcto\b|chief technology officer",
-    r"\bcpo\b|chief product officer",
-    r"\bfounder\b|co-founder",
-    r"vp.*engineering|vice president.*engineering|head of engineering|director of engineering|engineering director",
-    r"head of qa|qa director|director of (quality assurance|qa)|head of quality assurance",
-]
-
-# Seed from titles_whitelisted_later.md — titles you've manually confirmed
-# should be kept for specific companies even though they'd otherwise get
-# flagged. Add to this set any time you find a wrongly-flagged contact;
-# it always wins over the exclude patterns above.
-MANUAL_WHITELIST_TITLES = {
-    "general manager, co-cto",
-    "general manager, india and sr. director, application engineering",
-    "platform engineering manager | driving scalable ai infrastructure & agentic adoption",
-    "senior engineering manager (platform & security engineering)",
-    "senior product engineering manager — genai & erp platform",
-    "senior engineering manager, platform services",
-    "senior engineering manager, supplier platform",
-    "engineering manager, data platform",
-    "product engineering manager",
-    "software engineering manager - internal developer platform, infrastructure, ai",
-    "engineering & product leadership",
-    "engineering leader",
-    "vp, engineering operations",
-    "vp, platform engineering",
-    "head of engineering operations",
-    "head of engineering - foundations",
-    "head of engineering (interim)",
-    "head of front-end engineering",
-    "head of engineering / chief of staff",
-    "head of engineering & manufacturing operations",
-    "director, cloud engineering",
-    "sr. director, cloud engineering and support",
-    "director of ai engineering",
-    "head of cloud native engineering",
-}
-
-
-def classify_title(title):
-    """Return 'KEEP' or 'REVIEW' for a title. Never drops rows silently."""
-    if not title or not str(title).strip():
-        return "REVIEW"
-    low = str(title).strip().lower()
-    if low in MANUAL_WHITELIST_TITLES:
-        return "KEEP"
-    for pat in HARD_EXCLUDE_PATTERNS:
-        if re.search(pat, low):
-            return "REVIEW"
-    for pat in POSITIVE_OVERRIDE_PATTERNS:
-        if re.search(pat, low):
-            return "KEEP"
-    for pat in EXCLUDE_TITLE_PATTERNS:
-        if re.search(pat, low):
-            return "REVIEW"
-    return "KEEP"
-
 
 # Hardcoded fallback company list (used when COMPANIES_INPUT_FILE = "")
 COMPANIES = [
@@ -364,7 +229,7 @@ def load_companies():
             "company name": ["company name", "name"],
             "domain": ["company domain", "website", "domain"],
             "org industry": ["org industry", "industry"],
-            "org employees": ["org employees", "org employees count","employees"],
+            "org employees": ["org employees", "employees"],
         }
 
         def get_col(df, possible_names):
@@ -415,7 +280,7 @@ def load_companies():
         return COMPANIES
 
 # API - FETCH NEW PEOPLE, NOT SAVED IN CRM ( NO CREDITS CONSUMED )
-def search_people(domain, company_name, person_seniorities=None):
+def search_people(domain, company_name):
     """
     Paginate through /mixed_people/api_search for one domain.
     Returns new/prospect people not yet saved to Apollo CRM.
@@ -430,8 +295,6 @@ def search_people(domain, company_name, person_seniorities=None):
             json={
                 "q_organization_domains_list": [domain],
                 "person_titles": PERSON_TITLES,
-                "person_seniorities": person_seniorities or BASE_SENIORITIES,
-                "include_similar_titles": INCLUDE_SIMILAR_TITLES,
             },
             headers={
                 "Cache-Control": "no-cache",
@@ -470,7 +333,7 @@ def search_people(domain, company_name, person_seniorities=None):
 
 
 # API - FETCH ALREADY SAVED CONTACTS ( NO CREDITS CONSUMED )
-def search_contacts(domain, company_name, person_seniorities=None):
+def search_contacts(domain, company_name):
     """
     Paginate through /contacts/search for one domain.
     Returns contacts already saved in your Apollo CRM.
@@ -485,8 +348,6 @@ def search_contacts(domain, company_name, person_seniorities=None):
             json={
                 "q_organization_domains_list": [domain],
                 "person_titles": PERSON_TITLES,
-                "person_seniorities": person_seniorities or BASE_SENIORITIES,
-                "include_similar_titles": INCLUDE_SIMILAR_TITLES,
                 "page": page,
             },
             headers={
@@ -627,19 +488,10 @@ def save_to_excel(df):
       Summary  — per-company + per-source-type breakdown
     """
     with pd.ExcelWriter(OUTPUT_FILE, engine="openpyxl") as writer:
-        # Sheet 1 — all contacts, unfiltered (same shape as before + title_check column)
+        # Sheet 1 — all contacts
         df.to_excel(writer, index=False, sheet_name="Contacts")
 
-        # Sheet 2 — KEEP only, ready to paste straight into Step 2
-        clean_df = df[df["title_check"] == "KEEP"].reset_index(drop=True)
-        clean_df.to_excel(writer, index=False, sheet_name="Contacts_Clean")
-
-        # Sheet 3 — REVIEW only, for a quick spot-check (not auto-deleted —
-        # add any wrongly-flagged title to MANUAL_WHITELIST_TITLES and rerun)
-        review_df = df[df["title_check"] == "REVIEW"].reset_index(drop=True)
-        review_df.to_excel(writer, index=False, sheet_name="Needs_Review")
-
-        # Sheet 4 — per-company summary (new + crm breakdown)
+        # Sheet 2 — per-company summary (new + crm breakdown)
         summary = (
             df.groupby(["searched_company", "searched_domain", "source_type"])
             .agg(contacts_found=("apollo_person_id", "count"))
@@ -647,12 +499,11 @@ def save_to_excel(df):
         )
         summary.to_excel(writer, index=False, sheet_name="Summary")
 
-        # Auto-fit column widths on every sheet
-        for sheet_name in ["Contacts", "Contacts_Clean", "Needs_Review"]:
-            ws = writer.sheets[sheet_name]
-            for col in ws.columns:
-                max_len = max((len(str(c.value)) for c in col if c.value), default=10)
-                ws.column_dimensions[col[0].column_letter].width = min(max_len + 2, 50)
+        # Auto-fit column widths on Contacts sheet
+        ws = writer.sheets["Contacts"]
+        for col in ws.columns:
+            max_len = max((len(str(c.value)) for c in col if c.value), default=10)
+            ws.column_dimensions[col[0].column_letter].width = min(max_len + 2, 50)
 
     # print(f"\n  ✅  Saved {len(df)} contacts → '{OUTPUT_FILE}'")
 
@@ -732,8 +583,6 @@ def main():
     validate_companies(companies)
 
     print(f"  Titles filter  : {len(PERSON_TITLES)} roles")
-    print(f"  Seniorities    : {BASE_SENIORITIES} (+ 'manager' for companies <{SMALL_COMPANY_EMPLOYEE_THRESHOLD} employees)")
-    print(f"  Similar titles : {INCLUDE_SIMILAR_TITLES} (strict match only)")
     print(f"  Output file    : {OUTPUT_FILE}")
     print(f"  Master DB      : {MASTER_DB}")
     print("═" * 62 + "\n")
@@ -746,12 +595,8 @@ def main():
 
         print(f"[{idx:>2}/{len(companies)}] {name} ({domain})")
 
-        seniorities = seniorities_for_company(company)
-        if "manager" in seniorities:
-            print(f"    ℹ  Small/unknown headcount — including 'manager' seniority too")
-
         # ── 1. Search already-saved CRM contacts (no enrichment credits) ──
-        crm_contacts = search_contacts(domain, name, seniorities)
+        crm_contacts = search_contacts(domain, name)
         if crm_contacts:
             # rows = [flatten_person(c, name, domain, "CRM_CONTACT") for c in crm_contacts]
             rows = [flatten_person(c, company, "CRM_CONTACT") for c in crm_contacts]
@@ -761,7 +606,7 @@ def main():
             print(f"    –  No CRM contacts found")
 
         # ── 2. Search new/prospect people ─────────────────────────────────
-        new_people = search_people(domain, name, seniorities)
+        new_people = search_people(domain, name)
         if new_people:
             # rows = [flatten_person(p, name, domain, "NEW_PROSPECT") for p in new_people]
             rows = [flatten_person(p, company, "NEW_PROSPECT") for p in new_people]
@@ -794,23 +639,12 @@ def main():
     df.drop_duplicates(subset=["apollo_person_id"], keep="first", inplace=True)
     df.reset_index(drop=True, inplace=True)
 
-    # 🔥 NEW: auto-classify titles so you don't hand-filter the whole list.
-    # Nothing is dropped here — every row keeps its title_check tag and
-    # ends up in the output file; save_to_excel() splits KEEP vs REVIEW
-    # into separate sheets for you.
-    df["title_check"] = df["title"].apply(classify_title)
-
     print("─" * 62)
     crm_count  = (df["source_type"] == "CRM_CONTACT").sum()
     new_count  = (df["source_type"] == "NEW_PROSPECT").sum()
-    keep_count = (df["title_check"] == "KEEP").sum()
-    review_count = (df["title_check"] == "REVIEW").sum()
     print(f"  Total unique contacts  : {len(df)}")
     print(f"    ├─ CRM contacts      : {crm_count}  (already saved in Apollo)")
     print(f"    └─ New prospects     : {new_count}  (new leads, not yet saved)")
-    print(f"  Title check            :")
-    print(f"    ├─ KEEP              : {keep_count}  (ready for Step 2, in 'Contacts_Clean')")
-    print(f"    └─ REVIEW            : {review_count}  (flagged, in 'Needs_Review' — spot-check only)")
 
     save_to_excel(df)
 
@@ -820,9 +654,8 @@ def main():
     print()
     print("  ─── NEXT STEP ───────────────────────────────────────────")
     print(f"  1. Open '{OUTPUT_FILE}'")
-    print("  2. 'Contacts_Clean' sheet is ready to feed straight into Step 2")
-    print("  3. Skim 'Needs_Review' sheet — if you spot a good contact,")
-    print("     add that exact title to MANUAL_WHITELIST_TITLES and rerun")
+    print("  2. Review the Contacts sheet — filter rows you want")
+    print("  3. Save filtered rows as a new file")
     print("  4. Run Script 2 (STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py) to enrich + save")
     print("     Note: CRM_CONTACT rows are already saved — tracker will")
     print("     skip re-enriching them if already processed before.")
