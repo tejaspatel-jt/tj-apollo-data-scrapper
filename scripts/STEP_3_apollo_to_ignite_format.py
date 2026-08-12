@@ -111,7 +111,8 @@ COUNTRY_REGION_MAP = {
             "Chile", "Saint Lucia", "Mexico",
             
             # Additional countries in Latin America
-            "Peru", "Costa Rica", "Panama", "Venezuela", "Bolivia", "Paraguay", "Guyana", "Suriname", "Belize", "El Salvador", "Guatemala", "Honduras", "Nicaragua"
+            "Peru", "Costa Rica", "Panama", "Venezuela", "Bolivia", "Paraguay", "Guyana", "Suriname", "Belize", "El Salvador", "Guatemala", "Honduras", "Nicaragua",
+            "Barbados", "Bermuda"
         ],
         "Middle East": [
             "Bahrain", "Egypt", "Iraq", "Israel", "Jordan", "Kuwait",

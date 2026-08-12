@@ -1,4 +1,3 @@
-Company Name,Company Domain,Org Industry,Org Employees
 Codesphere,codesphere.com,Information Technology & Services,70
 Cofinity-X,cofinity-x.com,Information Technology & Services,87
 Cognaize,cognaize.com,Information Technology & Services,280
@@ -73,8 +72,8 @@ DKK Partners,dkkpartners.com,Finance,
 DLE Poland,dle.ag,Finance,
 Dock Financial,dock.financial,Finance,
 Dock Health,www.dock.health,Hospital & Health Care,
-Docplanner,docplanner.com,"Technology, Information & Media",
-Docspe,docspe.my,Hospital & Health Care,
+Docplanner,,"Technology, Information & Media",
+Docspe,,Hospital & Health Care,
 Doctors of Physical Therapy,doctorsofphysicaltherapy.com,Hospital & Health Care,310
 Docxster,docxster.com,"Technology, Information & Media",18568
 DrFirst,drfirst.com,Hospital & Health Care,470
@@ -206,7 +205,7 @@ Gram Games,gram.gs,"Technology, Information & Media",
 Graphio.ai,graphio.ai,Information Technology & Services,150
 Greytip Software Pvt. Ltd.,greythr.com,Software Solutions & Services,
 Grip Invest,gripinvest.in,Finance,
-Grupa Pracuj,pracujwgp.pl,"Technology, Information & Media",
+Grupa Pracuj,,"Technology, Information & Media",
 GSS - Global Screening Services,gss-rose.com,Finance,
 GT Motive Spain,gtmotive.es,Information Technology & Services,300
 Guideline,guideline.com,Finance,440
@@ -215,6 +214,7 @@ Haiilo,haiilo.com,"Technology, Information & Media",
 Hailey HR,haileyhr.com,Information Technology & Services,140
 Hakio,hakio.com,Information Technology & Services,31
 Halocline,halocline.io,Information Technology & Services,38
+Hälsa Hemma,,Hospital & Health Care,
 Hanseaticsoft GmbH,hanseaticsoft.com,"Technology, Information & Media",
 HaodaPay,haodapay.com,Finance,
 Harri,harri.com,"Technology, Information & Media",
@@ -234,13 +234,13 @@ Heyflow,heyflow.com,Information Technology & Services,84
 Hicomply,hicomply.com,Finance,
 HighRadius,highradius.com,"Technology, Information & Media",
 Hilti Technology Solutions India,careers.hilti.group,"Technology, Information & Media",
-Hint Health,hint.com,Hospital & Health Care,
+Hint Health,,Hospital & Health Care,
 Hippocratic AI,hippocraticai.com,Hospital & Health Care,160
 Holistic AI,holisticai.com,Finance,
 Holo4Med,holo4med.com,Finance,
 Hometap,hometap.com,Finance,270
 HomeXpress Mortgage,homexmortgage.com,Finance,270
-Housecall Pro,housecallpro.com,"Technology, Information & Media",
+Housecall Pro,,"Technology, Information & Media",
 HROne,hrone.cloud,Software Solutions & Services,
 Huma,huma.com,"Technology, Information & Media",
 Hydrosavvy,hydrosavvy.io,"Technology, Information & Media",
@@ -346,14 +346,14 @@ MAMEDICA®,mamedica.com,Finance,
 Manentia AI,manentia.ai,Hospital & Health Care,22
 Mangopay,mangopay.com,Finance,
 "Manthan, now Algonomy",algonomy.com,Software Solutions & Services,
-March Networks,marchnetworks.com,"Technology, Information & Media",
+March Networks,,"Technology, Information & Media",
 Mareana,mareana.com,"Technology, Information & Media",
 Marginalen Bank,marginalen.se,Finance,
 Markit,markit.eu,Information Technology & Services,200
 Mavenir,mavenir.com,Information Technology & Services,5900
 Maxio,maxio.com,Finance,260
 Medallia,medallia.com,"Technology, Information & Media",1001
-MedRefer GmbH,medrefer.de,Hospital & Health Care,18568
+MedRefer GmbH,medrefer-gmbh,Hospital & Health Care,18568
 Meeami Technologies,meeamitech.com,"Technology, Information & Media",51 - 200
 Mejadokter,mejadokter.com,Finance,51 - 200
 Meltlake,meltlake.fi,Information Technology & Services,58
@@ -395,7 +395,7 @@ Namunah Ai (LoopX),theloopx.com,"Technology, Information & Media",
 Nansen,nansen.ai,Information Technology & Services,110
 Napier Healthcare,napierhealthcare.com,Hospital & Health Care,
 Nasdaq AxiomSL (Adenza),adenza.com,"Technology, Information & Media",
-Nassau Financial Group,nfg.com,Finance,
+Nassau Financial Group,,Finance,
 Native,native.tech,Information Technology & Services,33
 Navan,navan.com,"Technology, Information & Media",
 Navro,navro.com,Finance,
