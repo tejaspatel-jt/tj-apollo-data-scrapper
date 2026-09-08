@@ -1,0 +1,2611 @@
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ C:/Users/tejas/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/OLD_SCRIPTS/apollo_people_search_v14_retryCheckpointAutoResume.py"
+
+══════════════════════════════════════════════════════════════
+  Apollo People Search Scraper — Step 1 of 2
+  Searches: New Prospects + Already Saved CRM Contacts
+══════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════
+  ❌ ❌  VALIDATION FAILED ❌ ❌ — Fix INPUT FILE issues before running the script
+══════════════════════════════════════════════════════════════
+  [121] 'SmartRecruiters' → domain looks invalid: 'nan'
+  [124] 'SOFTSWISS' → domain looks invalid: 'nan'
+  [125] 'Software AG' → domain looks invalid: 'nan'
+  [225] 'Tokio Marine HCC' → domain looks invalid: 'nan'
+  [229] 'Toyota Insurance' → domain looks invalid: 'nan'
+  [234] 'TransRe' → domain looks invalid: 'nan'
+  [236] 'Trilogy' → domain looks invalid: 'nan'
+  [307] 'Xchange Benefits' → domain looks invalid: 'nan'
+  [312] 'Yodda' → domain looks invalid: 'nan'
+  [331] '캐롯손해보험 (Carrot General Insurance)' → domain has extra words: 'Not provided'
+══════════════════════════════════════════════════════════════
+
+  ✗  10 issue(s) found in companies_input.csv
+  🛑 🛑 Script stopped. No API calls were made.
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+
+>>> exit
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS> python "C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS\apollo_people_search_v14_retryCheckpointAutoResume.py"
+
+══════════════════════════════════════════════════════════════
+  Apollo People Search Scraper — Step 1 of 2
+  Searches: New Prospects + Already Saved CRM Contacts
+══════════════════════════════════════════════════════════════
+  ✔  All 330 company domains validated OK
+
+  Titles filter  : 32 roles
+  Seniorities    : ['owner', 'founder', 'c_suite', 'vp', 'head', 'director'] (+ 'manager' for companies <50 employees)
+  Similar titles : False (strict match only)
+  Output file    : C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS\..\output\apollo_people_search_08sep2026_120722.xlsx
+  Master DB      : C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS\..\output\master_lead_database.xlsx
+══════════════════════════════════════════════════════════════
+
+[ 1/330] Playnetic (playnetic.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[ 2/330] Plobal Apps (plobalapps.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[ 3/330] Pocketlaw (pocketlaw.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[ 4/330] Predicti (predicti.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[ 5/330] Prelios (prelios.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[ 6/330] PrestaShop (prestashop.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[ 7/330] Primefocus Health (primefocushealth.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[ 8/330] Primer (primer.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[ 9/330] Prismforce (prismforce.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[10/330] Processifier (processifier.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[11/330] Procuros (procuros.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[12/330] PRODUCER, Maker Machina (the-producer.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[13/330] Profitroom (profitroom.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[14/330] Prograd (prograd.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[15/330] PropertiPintar (propertipintar.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[16/330] Proppify Solutions (proppify.in)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[17/330] Prosperr.io (prosperr.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[18/330] Protective Life (protective.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 14 results (total ≈ ?)
+    ✓  14 new prospects collected
+
+[19/330] Provation (provationmedical.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[20/330] Pruna AI (pruna.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[21/330] PT. CRIF Lembaga Informasi Keuangan (CLIK) (cbclik.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[22/330] Purplle.com (purplle.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[23/330] Qawafel (qawafel.sa)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[24/330] Qdrant (qdrant.tech)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[25/330] QQ Pay (qqpay.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[26/330] QUABLE (quable.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[27/330] Quantagonia (quantagonia.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[28/330] Quor Group (quorgroup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[29/330] quso.ai (quso.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[30/330] Qventus (qventus.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 13 results (total ≈ ?)
+    ✓  13 new prospects collected
+
+[31/330] RAAPID (raapidinc.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[32/330] Raft (raft.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[33/330] Rail-Flow (rail-flow.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[34/330] RapidCanvas (rapidcanvas.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[35/330] RapidClaims (rapidclaims.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[36/330] RCS (rcsworks.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[37/330] RecordPoint (recordpoint.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[38/330] Redox (redoxengine.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[39/330] RedStone Oracles (redstone.finance)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[40/330] ReelUp (reelup.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[41/330] Relatient (relatient.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[42/330] Rerun (rerun.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[43/330] RESONIKS (resoniks.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[44/330] Resound (resoundnetworks.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[45/330] ReSpo.Vision (respo.vision)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[46/330] Responsible Life (responsiblelife.co.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[47/330] Resquared (re2.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[48/330] RevLifter (revlifter.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[49/330] Revspot (revspot.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[50/330] Rhapsody (rhapsody.health)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[51/330] RingGo Parking (ringgo.co.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[52/330] Ripple (ripple.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 32 results (total ≈ ?)
+    ✓  32 new prospects collected
+
+[53/330] RippleMatch (ripplematch.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[54/330] Risilience (risilience.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[55/330] Riskonnect, formerly Sword GRC (sword-grc.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[56/330] RLDatix UK & Ireland (rldatix.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 14 results (total ≈ ?)
+    ✓  14 new prospects collected
+
+[57/330] RobCo (robco.de)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[58/330] Rollstack (rollstack.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[59/330] Root Global (rootglobal.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[60/330] Rosa (pro.rosa.be)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[61/330] Route Mobile Limited (routemobile.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[62/330] royaltiz (royaltiz.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[63/330] RQI (RQI Partners) (rqipartners.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[64/330] RTB House (rtbhouse.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 11 results (total ≈ ?)
+    ✓  11 new prospects collected
+
+[65/330] Rupifi (rupifi.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[66/330] Rvvup (rvvup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[67/330] RZOLUT (rey-zo-lute) (rzolut.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[68/330] SaaS SoftPro Leaders Pvt. Ltd. (saasleaders.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[69/330] Safe (safe.global)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[70/330] SafeRide Health (saferidehealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[71/330] Sage Health (sage.health)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[72/330] Saham Rakyat (sahamrakyat.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[73/330] Sakon (sakon.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[74/330] SalaryBox (salarybox.in)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[75/330] SalesIntel.io (salesintel.io)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[76/330] Sangti (sangti.tech)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[77/330] SAP Fioneer (sapfioneer.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[78/330] Sastrify (sastrify.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[79/330] Saviynt (saviynt.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 40 results (total ≈ ?)
+    ✓  40 new prospects collected
+
+[80/330] SCAI (Saudi Company for Artificial Intelligence) (scai.sa)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[81/330] Scalenut (scalenut.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[82/330] Scalers (withscalers.com) (withscalers.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[83/330] sccc (Saudi Cloud Computing Company – Alibaba Cloud Saudi JV) (alibabacloud.sa)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 17 results (total ≈ ?)
+    ✓  17 new prospects collected
+
+[84/330] School Champ (schoolchamp.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[85/330] Scitara Corporation (scitara.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[86/330] Screendragon (screendragon.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[87/330] Scrut Automation (scrut.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[88/330] SearchPilot (searchpilot.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[89/330] Secret (joinsecret.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[90/330] Secro (secro.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[91/330] Secureframe (secureframe.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[92/330] Selfwealth by Syfe (selfwealth.com.au)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[93/330] semvox GmbH (semvox.de)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[94/330] SENSIA (sensia-solutions.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[95/330] Sente (sente.pl)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[96/330] Sentieo, an AlphaSense company (sentieo.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[97/330] Seqana (seqana.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[98/330] SER Group (sergroup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[99/330] Serif (Europe) Ltd – Affinity (affinity.serif.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[100/330] Service Works Global (SWG) (swg.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[101/330] ServiceRocket (servicerocket.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[102/330] Shadow (shadow.tech)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[103/330] ShareDo (sharedo.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[104/330] Shares (shares.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[105/330] Shiftmove (shiftmove.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[106/330] ShipConsole (shipconsole.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[107/330] Shoper (shoper.pl)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[108/330] sikka.ai (sikkasoft.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[109/330] SimCorp (simcorp.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 34 results (total ≈ ?)
+    ✓  34 new prospects collected
+
+[110/330] Simfoni (simfoni.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[111/330] Simplify Healthcare (simplifyhealthcare.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 13 results (total ≈ ?)
+    ✓  13 new prospects collected
+
+[112/330] Singletrack (singletrack.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 4 results (total ≈ 4)
+    ✓  4 CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[113/330] Siply (siply.in)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[114/330] Sirion (sirion.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[115/330] SIRKA (sirka.co.id)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[116/330] Siteimprove (siteimprove.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[117/330] Skello (skello.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[118/330] Skylark AI Inc. (skylarkai.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[119/330] Small World Financial Services (smallworldfs.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[120/330] Smart Pension (smart.co)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[121/330] SmartRecruiters (smartrecruiters.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[122/330] SmithRx (smithrx.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[123/330] Softr (softr.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[124/330] SOFTSWISS (softswiss.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[125/330] Software AG (softwareag.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[126/330] Solera, Inc. (solera.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 33 results (total ≈ ?)
+    ✓  33 new prospects collected
+
+[127/330] Solifi (solifi.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[128/330] Sollis Health (sollishealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[129/330] Solveda (solveda.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[130/330] Sona (getsona.com) (getsona.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[131/330] SOTI (soti.net)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[132/330] SourceWhale (sourcewhale.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[133/330] SpectraMedix (spectramedix.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[134/330] Spire Tech (spiretech.co)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[135/330] Splash Damage (splashdamage.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[136/330] Sportian (sportian.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[137/330] Sports Interactive (SI) (sports-interactive.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[138/330] Spotnana (spotnana.com)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 15 results (total ≈ ?)
+    ✓  15 new prospects collected
+
+[139/330] SPRING Axel Springer (spring-media.de)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[140/330] Sprouts.ai (sprouts.ai)
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[141/330] SPRY (sprypt.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[142/330] Squalify (squalify.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[143/330] Stack Sports (stacksports.com)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[144/330] STAQO (staqo.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[145/330] StarFetchX (starfetchx.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[146/330] Stash (stash.gg)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[147/330] StayinFront (stayinfront.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[148/330] Stealth AI Startup (ai-in-stealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[149/330] Stelia (stelia.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[150/330] Stellus Rx (stellusrx.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[151/330] Step (step.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[152/330] STEPN GO (og.stepn.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[153/330] SternX (sternx.de)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[154/330] STOEX (stoex.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[155/330] Stora (stora.co)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[156/330] Storyblok (storyblok.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[157/330] Straight4 Studios (straight4.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[158/330] StratGeek (stratgeek.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[159/330] STRATOS Technologies (stratos.tech)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[160/330] StrideCare (stridecare.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[161/330] Striim (striim.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[162/330] StrongDM (strongdm.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[163/330] Suchama AI (suchama.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[164/330] SudoBoat (sudoboat.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[165/330] Sully.ai (sully.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[166/330] Sumsub (sumsub.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[167/330] sunday (sundayapp.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[168/330] SunTec Business Solutions (suntecgroup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[169/330] Super Payments (superpayments.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[170/330] Superchat (superchat.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[171/330] Supy (supy.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[172/330] SurrealDB (surrealdb.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[173/330] Swipey (swipey.co)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[174/330] Swirl (goswirl.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[175/330] Sword Health (swordhealth.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 23 results (total ≈ ?)
+    ✓  23 new prospects collected
+
+[176/330] Sygnum Bank (sygnum.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[177/330] Symetri Europe (symetrigroup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[178/330] Syncron (syncron.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 15 results (total ≈ ?)
+    ✓  15 new prospects collected
+
+[179/330] Syntasso (syntasso.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[180/330] Syren (syrencloud.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[181/330] Tabula Rasa HealthCare (tabularasahealthcare.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[182/330] Tacto (tacto.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[183/330] Tacton (tacton.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[184/330] Taktile (taktile.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[185/330] Tandigm Health (tandigmhealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[186/330] TapestryHealth (tapestryhealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[187/330] TaskOPad (taskopad.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[188/330] Tata 1mg (1mg.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 13 results (total ≈ ?)
+    ✓  13 new prospects collected
+
+[189/330] Taylor Recruit (taylorrecruit.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[190/330] TBK Bank SSB (tbkbank.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[191/330] Team-GPT (team-gpt.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[192/330] Teamforce AI (teamforce.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[193/330] Teckro (teckro.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[194/330] Telepass (telepass.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[195/330] Telicent (telicent.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[196/330] Tembo (tembomoney.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[197/330] Temperstack (temperstack.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[198/330] Templafy (templafy.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[199/330] Teneo.ai (teneo.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[200/330] Tenerity India (tenerity.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[201/330] Terminal Velocity (terminalvelocitygg.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[202/330] Terminalfour (terminalfour.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[203/330] Terrific Minds (terrificminds.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[204/330] TexlaCulture (texlaculture.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[205/330] The ai Corporation (aicorporation.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 3 results (total ≈ 3)
+    ✓  3 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[206/330] The Events Calendar (theeventscalendar.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[207/330] The IMA Group (theimagroup.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[208/330] The Openwork Partnership (theopenworkpartnership.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[209/330] The Swarm (theswarm.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[210/330] think-cell Software (think-cell.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[211/330] ThoughtSpot (thoughtspot.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 19 results (total ≈ ?)
+    ✓  19 new prospects collected
+
+[212/330] Thrive Health (thrive.health)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[213/330] Thunderful Games (thunderfulgames.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[214/330] Thyme Care (thymecare.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[215/330] Tia (asktia.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[216/330] TIBCO (tibco.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 15 results (total ≈ ?)
+    ✓  15 new prospects collected
+
+[217/330] Tidalwave (tidalwave.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[218/330] tiket.com (careers.tiket.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 18 results (total ≈ ?)
+    ✓  18 new prospects collected
+
+[219/330] Time Out Group plc (timeout.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[220/330] Tivian (tivian.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[221/330] Toast (pos.toasttab.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 71 results (total ≈ ?)
+    ✓  71 new prospects collected
+
+[222/330] Tobiko (tobikodata.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[223/330] TodayTix Group (TTG) (todaytixgroup.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[224/330] Together AI (together.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[225/330] Tokio Marine HCC (tmhcc.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[226/330] toob (toob.co.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[227/330] topi (topi.eu)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[228/330] TOPseven (topseven.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[229/330] Toyota Insurance (toyotainsurance.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[230/330] TPT Retirement Solutions (tpt.org.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[231/330] Trade Nation (tradenation.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[232/330] TransferGo (transfergo.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[233/330] Translucent (translucent.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[234/330] TransRe (transre.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[235/330] Trek Health (trekhealth.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[236/330] Trilogy (trilogy.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[237/330] trivago (company.trivago.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 10 results (total ≈ ?)
+    ✓  10 new prospects collected
+
+[238/330] Truecaller (truecaller.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 13 results (total ≈ ?)
+    ✓  13 new prospects collected
+
+[239/330] Trust & Will (trustandwill.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[240/330] Trust Bank Singapore (trustbank.sg)
+    [CRM]  Page   1/1 — 1 results (total ≈ 1)
+    ✓  1 CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[241/330] Trust Payments (trustpayments.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[242/330] Trustmark (trustmarkbenefits.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[243/330] Turgon AI (turgon.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[244/330] Turquoise Health (turquoise.health)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[245/330] Twenty7tec (twenty7tec.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[246/330] U GRO Capital (ugrocapital.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[247/330] TTEC Digital (ttecdigital.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[248/330] Turquoise Health (turquoise.health)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[249/330] Tyto Athene (Quantum Sky) (gotyto.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[250/330] U GRO Capital (ugrocapital.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[251/330] Understory (understory.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[252/330] Underwriter Inc. (underwriter-inc.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[253/330] Uniform (uniform.dev)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[254/330] Uniguest (uniguest.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[255/330] Unily (unily.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[256/330] Unique (unique.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[257/330] United Fintech (unitedfintech.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[258/330] Unwritten (unwritten.co)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[259/330] unybrands (unybrands.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[260/330] Uplight (uplight.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[261/330] Userled (userled.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[262/330] Utmost (Beeline) (beeline.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 11 results (total ≈ ?)
+    ✓  11 new prospects collected
+
+[263/330] Valarian (valarian.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[264/330] valid8Me (valid8me.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[265/330] Vectara (vectara.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[266/330] Vega (vega-alts.com) (vega-alts.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[267/330] Vehlo (vehlo.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[268/330] Vertafore (vertafore.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 23 results (total ≈ ?)
+    ✓  23 new prospects collected
+
+[269/330] Vertice (vertice.one)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[270/330] Veyo (veyo.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[271/330] VIBRANIUM® (vibranium.co.in)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[272/330] VIER (vier.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[273/330] Visable (visable.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 6 results (total ≈ ?)
+    ✓  6 new prospects collected
+
+[274/330] VisionTrack (visiontrack.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[275/330] Vitrifi (vitrifi.net)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[276/330] Viz.ai (viz.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[277/330] Vocalink, a Mastercard company (vocalink.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 23 results (total ≈ ?)
+    ✓  23 new prospects collected
+
+[278/330] Vodex.ai (vodex.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[279/330] Vohra Wound Physicians (vohrawoundcare.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[280/330] voize (voize.de)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[281/330] Volante Technologies (volantetech.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 21 results (total ≈ ?)
+    ✓  21 new prospects collected
+
+[282/330] Volue (volue.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[283/330] vRad (vrad.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[284/330] Vytalize Health (vytalizehealth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[285/330] WATI (wati.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[286/330] We Are Learning (wearelearning.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[287/330] Wealthlane Financial Inc. (wealthlane.co)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    ⚠  Network error (ReadTimeout) — retry 1/5 in 5s...
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[288/330] WebMD Ignite (webmdignite.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 14 results (total ≈ ?)
+    ✓  14 new prospects collected
+
+[289/330] Weld (weld.app)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[290/330] Welldoc (welldoc.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[291/330] Wellthy (wellthy.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[292/330] Wheel (wheel.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[293/330] wingpay (wingpay.app)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[294/330] Wise (withwise.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 5 results (total ≈ ?)
+    ✓  5 new prospects collected
+
+[295/330] Aurum WiseX (aurumwisex.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[296/330] Wonderware (wonderware.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[297/330] WorkerHero (workerhero.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[298/330] WorkSimpli Software (worksimpli.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[299/330] Woven by Toyota (woven.toyota)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 11 results (total ≈ ?)
+    ✓  11 new prospects collected
+
+[300/330] Writesonic (writesonic.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[301/330] WSCAD GmbH (wscad.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[302/330] WunderGraph (wundergraph.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[303/330] Wyre (wyre.be)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[304/330] x1F (x1f.one)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[305/330] Xata.io (xata.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[306/330] Xceptor (xceptor.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[307/330] Xchange Benefits (xbllc.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[308/330] XING (xing.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 11 results (total ≈ ?)
+    ✓  11 new prospects collected
+
+[309/330] Xpollens (xpollens.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/1 — 2 results (total ≈ 2)
+    ✓  2 CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[310/330] XTEL (xtel-group.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 0 results (total ≈ ?)
+    –  No new prospects found
+
+[311/330] Yandex.Taxi (yandex-team.ru)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 100 results (total ≈ ?)
+    ✓  100 new prospects collected
+
+[312/330] Yodda (yodda.care)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[313/330] Yoti (yoti.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[314/330] YouView TV Limited (youview.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[315/330] Yunex Traffic (yunextraffic.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[316/330] ZapScale (zapscale.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 3 results (total ≈ ?)
+    ✓  3 new prospects collected
+
+[317/330] ZenAdmin (zenadmin.ai)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[318/330] Zenoti (zenoti.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 31 results (total ≈ ?)
+    ✓  31 new prospects collected
+
+[319/330] Zenseact (zenseact.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[320/330] Zentist (zentist.io)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 1 results (total ≈ ?)
+    ✓  1 new prospects collected
+
+[321/330] ZeOmega (zeomega.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 12 results (total ≈ ?)
+    ✓  12 new prospects collected
+
+[322/330] ZeroNorth (zeronorth.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 9 results (total ≈ ?)
+    ✓  9 new prospects collected
+
+[323/330] Zeta (zeta.tech)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 29 results (total ≈ ?)
+    ✓  29 new prospects collected
+
+[324/330] Zeti (zeti.group)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[325/330] ZILO (zilo.co.uk)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 8 results (total ≈ ?)
+    ✓  8 new prospects collected
+
+[326/330] Zodia Markets (zodiamarkets.com)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 2 results (total ≈ ?)
+    ✓  2 new prospects collected
+
+[327/330] Zoko (YC W21) (zoko.io)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[328/330] Zuddl (zuddl.com)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 7 results (total ≈ ?)
+    ✓  7 new prospects collected
+
+[329/330] zvoove (zvoove.de)
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+[330/330] Zynix.AI (zynix.ai)
+    ℹ  Small/unknown headcount — including 'manager' seniority too
+    [CRM]  Page   1/0 — 0 results (total ≈ 0)
+    –  No CRM contacts found
+    [NEW]  Page   1/1 — 4 results (total ≈ ?)
+    ✓  4 new prospects collected
+
+──────────────────────────────────────────────────────────────
+  Total unique contacts  : 1703
+    ├─ CRM contacts      : 31  (already saved in Apollo)
+    └─ New prospects     : 1672  (new leads, not yet saved)
+  Title check            :
+    ├─ KEEP              : 1633  (ready for Step 2, in 'Contacts_Clean')
+    └─ REVIEW            : 70  (flagged, in 'Needs_Review' — spot-check only)
+
+  ✅  Searched API Output Saved → 'output/apollo_people_search_08sep2026_120722.xlsx'
+            ├───── Total contacts     : 1703
+            ├───── CRM contacts       : 31  (already saved in Apollo)
+            ├───── New prospects      : 1672  (not yet saved)
+            └───── Pre-enriched       : 31  (have email already)
+
+  ─── NEXT STEP ───────────────────────────────────────────
+  1. Open 'C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS\..\output\apollo_people_search_08sep2026_120722.xlsx'
+  2. 'Contacts_Clean' sheet is ready to feed straight into Step 2
+  3. Skim 'Needs_Review' sheet — if you spot a good contact,
+     add that exact title to MANUAL_WHITELIST_TITLES and rerun
+  4. Run Script 2 (STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py) to enrich + save
+     Note: CRM_CONTACT rows are already saved — tracker will
+     skip re-enriching them if already processed before.
+──────────────────────────────────────────────────────────────
+
+PS C:\Users\tejas\OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED\📌 W O R K 📌\Projects\apollo-data-scrapper\OLD_SCRIPTS>
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ C:/Users/tejas/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_2_apollo_bulk_match_and_enrich_and_bulkCreate.py"
+
+══════════════════════════════════════════════════════════════
+  Apollo Bulk People Enrichment — Step 2 of 2
+  Endpoint: POST /api/v1/people/bulk_match
+══════════════════════════════════════════════════════════════
+  Input file            : output/apollo_people_search_08sep2026_120722.xlsx
+  Output file           : output/apollo_enriched_08sep2026_150140.xlsx
+  Batch size (enrich)   : 10  (Apollo max per bulk_match call)
+  Batch size (CRM save) : 100  (Apollo max per bulk_create call)
+  Reveal personal email : True
+  Reveal phone number   : False
+  Create in CRM now     : True
+  Labels to apply       : Created_with_ApolloAPI
+══════════════════════════════════════════════════════════════
+
+  Loaded 1587 contacts from sheet 'Contacts' in 'output/apollo_people_search_08sep2026_120722.xlsx'
+  🧠  Seeding Master DB with 31 CRM contacts from input...
+
+  🧠 🔼🔼  Now  Updating Master DB....  ⏳⏳⏳⏳
+
+  🧠  Master DB Updated Successfully ✅
+            ├───── Updated existing      : 0
+            ├───── Inserted new          : 31
+            ├───── Total records in DB   : 8257
+            ├───── Enriched (API called) : 8253
+            ├───── In CRM                : 8253
+            └───── Have email            : 7201
+
+  👀  View Master DB File 👉 → 'output/master_lead_database.xlsx'
+
+  🧠  Smart Filter Summary Before Enrichment:
+       ├─ Total input            : 1587
+       ├─ To enrich (NEW)        : 1556
+       ├─ Skipped (total)        : 31
+       │   ├─ Master DB dupes    : 31
+       │   └─ CRM pre-enriched   : 0
+       └─ Credits saved          : 31  🎉🫀
+  Processing 1556 contacts (after filtering) in 156 batch(es) of 10...
+
+  Batch   1/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   2/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   3/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   4/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   5/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   6/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   7/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   8/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch   9/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  10/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  11/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  12/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  13/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  14/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  15/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  16/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  17/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  18/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  19/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  20/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  21/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  22/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  23/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  24/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  25/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  26/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  27/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  28/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  29/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  30/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  31/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  32/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  33/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  34/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  35/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  36/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  37/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  38/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  39/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  40/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  41/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  42/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  43/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  44/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  45/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  46/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  47/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  48/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  49/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  50/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  51/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  52/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  53/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  54/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  55/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  56/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  57/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  58/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  59/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  60/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  61/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  62/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  63/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  64/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  65/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  66/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  67/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  68/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  69/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  70/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  71/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  72/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  73/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  74/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  75/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  76/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  77/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  78/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  79/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  80/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  81/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  82/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  83/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  84/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  85/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  86/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  87/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  88/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  89/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  90/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  91/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  92/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  93/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  94/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  95/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  96/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  97/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  98/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch  99/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 100/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 101/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 102/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 103/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 104/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 105/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 106/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 107/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 108/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 109/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 110/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 111/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 112/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 113/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 114/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 115/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 116/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 117/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 118/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 119/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 120/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 121/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 122/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 123/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 124/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 125/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 126/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 127/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 128/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 129/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 130/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 131/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 132/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 133/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 134/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 135/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 136/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 137/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 138/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 139/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 140/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 141/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 142/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 143/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 144/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 145/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 146/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 147/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 148/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 149/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 150/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 151/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 152/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 153/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 154/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 155/156  (10 IDs)... ✓  matched=10  missing=0  credits=10
+  Batch 156/156  (6 IDs)... ✓  matched=6  missing=0  credits=6
+
+──────────────────────────────────────────────────────────────
+
+  ✅  Saved → 'output/apollo_enriched_08sep2026_150140.xlsx'
+       ├───── Mode: Multi Sheets
+       ├───── Enriched (all rows)    : 1587
+       ├───── Matched  (API success) : 1556
+       ├───── Unmatched              : 31
+       └───── CRM Save (bulk_create) : 1556
+
+  Unmatched person IDs (31): 677a112b86111a00018cc64e, 54a4a4ed74686938ac250058, 67c1ba7900a49000010c5c2c, 60ff483d7961100001114cdd, 55710f527369647c5ffd0e00...
+  ─── SHEETS GUIDE ────────────────────────────────────────
+  'Enriched'  = ALL input rows (matched + unmatched, same order)
+  'Matched'   = Rows where Apollo API returned data (not guaranteed to have email) 
+  'Unmatched' = Rows Apollo could not find any match
+  'CRM Save'  = Ready for CRM upload via 'contacts/bulk_create' API
+  ─────────────────────────────────────────────────────────
+  🚨🚨🚨 Total enrichment credits consumed : 1556
+
+  Saving 1556 contacts to Apollo CRM in 16 batch(es)...
+
+  CRM Batch   1/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   2/16  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch   3/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   4/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   5/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   6/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   7/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   8/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch   9/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch  10/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch  11/16  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch  12/16  (100 contacts)... ✓  created=99  existing=1
+  CRM Batch  13/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch  14/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch  15/16  (100 contacts)... ✓  created=100  existing=0
+  CRM Batch  16/16  (56 contacts)... ✓  created=56  existing=0
+
+  ── CRM Save Completed ✅ ──────────────────────────────────
+     Total created  : 1553
+     Total existing : 3  (already in your CRM, not duplicated)
+
+  🧠 🔼🔼  Now  Updating Master DB....  ⏳⏳⏳⏳
+
+  🧠  Master DB Updated Successfully ✅
+            ├───── Updated existing      : 31
+            ├───── Inserted new          : 1556
+            ├───── Total records in DB   : 9813
+            ├───── Enriched (API called) : 9809
+            ├───── In CRM                : 9809
+            └───── Have email            : 8501
+
+  👀  View Master DB File 👉 → 'output/master_lead_database.xlsx'
+
+  ════════════════════════════════════════════════════════════
+  ✅  Run Complete 🏁
+       ├───── ✨ Enriched this run      : 1556  contacts
+       ├───── 💰 Credits consumed       : 1556  
+       ├───── 🔽 Output saved           : output/apollo_enriched_08sep2026_150140.xlsx
+       └───── 🔐 Master DB              : output/master_lead_database.xlsx
+  ════════════════════════════════════════════════════════════
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$  
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ C:/Users/tejas/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_3_apollo_to_ignite_format.py"
+
+══════════════════════════════════════════════════════════════
+  Scrapped Data Formatter for Ignite Sheet — Final Step (3 of 3) 😎
+  Apollo Master Lead DB   →  LinkedIn Ignite Format
+══════════════════════════════════════════════════════════════
+  Source file  : master_lead_database.xlsx
+  Output file  : output/ignite_ready_contacts_<timestamp>.xlsx
+  Mode         : Master DB
+══════════════════════════════════════════════════════════════
+
+  Source: Master DB → master_lead_database.xlsx
+
+ 👉  Input Data Load Summary:
+          ├───── Total rows loaded   : 9813
+          ├───── Enriched contacts   : 9809
+          ├───── Have email          : 8501
+          └───── Have LinkedIn URL   : 9809
+
+  🌍  Region Mapping Completed ✅:
+       ├─ Africa              : 44
+       ├─ Asia-Pacific        : 1945
+       ├─ Europe              : 2887
+       ├─ Latin America       : 79
+       ├─ Middle East         : 410
+       ├─ North America       : 4121
+       ├─ Southeast Asia      : 284
+       ├─ UnknownRegion       : 43
+
+
+  ✅  Ignite Contacts File Ready → 'output/ignite_ready_contacts_08sep2026_151239.xlsx'
+            └─ Total contacts Rows          : 9813
+                 ├─── Have LinkedIn         : 9809  (LinkedIn Ignite ready)
+                 └─── Email Counts
+                        ├── Have Email      : 8501
+                        └── No email        : 1312  (LinkedIn-only outreach)
+
+  ════════════════════════════════════════════════════════════
+  ✅  Run Completed 🏁
+       └─── 👀 View Output File 👉 → 'output/ignite_ready_contacts_08sep2026_151239.xlsx'
+  ════════════════════════════════════════════════════════════
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ C:/Users/tejas/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_3_apollo_to_ignite_format.py"
+
+══════════════════════════════════════════════════════════════
+  Scrapped Data Formatter for Ignite Sheet — Final Step (3 of 3) 😎
+  Apollo Master Lead DB   →  LinkedIn Ignite Format
+══════════════════════════════════════════════════════════════
+  Source file  : master_lead_database.xlsx
+  Output file  : output/ignite_ready_contacts_<timestamp>.xlsx
+  Mode         : Master DB
+══════════════════════════════════════════════════════════════
+
+  Source: Master DB → master_lead_database.xlsx
+
+ 👉  Input Data Load Summary:
+          ├───── Total rows loaded   : 9813
+          ├───── Enriched contacts   : 9809
+          ├───── Have email          : 8501
+          └───── Have LinkedIn URL   : 9809
+
+  🌍  Region Mapping Completed ✅:
+       ├─ Africa              : 44
+       ├─ Asia-Pacific        : 1945
+       ├─ Europe              : 2887
+       ├─ Latin America       : 79
+       ├─ Middle East         : 410
+       ├─ North America       : 4121
+       ├─ Southeast Asia      : 284
+       ├─ UnknownRegion       : 43
+
+
+  ✅  Ignite Contacts File Ready → 'output/ignite_ready_contacts_08sep2026_151239.xlsx'
+            └─ Total contacts Rows          : 9813
+                 ├─── Have LinkedIn         : 9809  (LinkedIn Ignite ready)
+                 └─── Email Counts
+                        ├── Have Email      : 8501
+                        └── No email        : 1312  (LinkedIn-only outreach)
+
+  ════════════════════════════════════════════════════════════
+  ✅  Run Completed 🏁
+       └─── 👀 View Output File 👉 → 'output/ignite_ready_contacts_08sep2026_151239.xlsx'
+  ════════════════════════════════════════════════════════════
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ C:/Users/tejas/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/tejas/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper/scripts/STEP_4_apollo_ignite_master_merger.py"
+
+══════════════════════════════════════════════════════════════
+  Ignite Master Merger — Step 4 of 4
+  mergeSourceSheetsIntoMaster  (Python Port)
+══════════════════════════════════════════════════════════════
+  Master file   : Scrapped Master Data By Tejas - Apollo-Utility.xlsx
+  Source file   : ignite_ready_contacts_08sep2026_151239.xlsx
+  Output file   : ignite_master_merged_08sep2026_151341.xlsx
+  Dedup columns : First Name, Last Name, Email
+  Occurrence    : First kept (master priority)
+══════════════════════════════════════════════════════════════
+
+  Reading Master: Scrapped Master Data By Tejas - Apollo-Utility.xlsx  [sheet='Sheet1']
+  └─ Loaded 9591 rows  (21 columns)
+
+  Output will have 21 columns.
+
+  Loading master rows...
+  └─ 9591 unique master rows loaded.
+
+  Reading Source: ignite_ready_contacts_08sep2026_151239.xlsx  [sheet='Sheet1']
+  └─ Loaded 9813 rows  (21 columns)
+
+  Merging source rows...
+  └─ Added (new)     : 1563
+  └─ Skipped (exact) : 8181
+  └─ Name-merged     : 69  (same name, different email -> kept more complete row)
+
+──────────────────────────────────────────────────────────────
+  ✅  Saved -> 'ignite_master_merged_08sep2026_151341.xlsx'
+       ├─ Master rows    : 9591
+       ├─ Source rows    : 9813
+       ├─ New rows added : 1563
+       ├─ Duplicates     : 8181
+       ├─ Name-merged    : 69
+       └─ Total output   : 11154 unique rows
+══════════════════════════════════════════════════════════════
+
+
+tejas@JTPC07 MINGW64 ~/OneDrive - JIGNECT TECHNOLOGIES PRIVATE LIMITED/📌 W O R K 📌/Projects/apollo-data-scrapper (master)
+$ 
